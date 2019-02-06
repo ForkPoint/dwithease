@@ -1,10 +1,10 @@
 # Demandware with ease
 
-# Use Salesforce Commerce Cloud B2C ( Demandware ) with ease!
+## Use Salesforce Commerce Cloud B2C ( Demandware ) with ease!
 
-# An extension which makes Salesforce Commerce Cloud B2C ( Demandware ) a happy place!
+## An extension which makes Salesforce Commerce Cloud B2C ( Demandware ) a happy place!
 
-# This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
+## This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
 
 # List of functionalities
 ## Options Page
