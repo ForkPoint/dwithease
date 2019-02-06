@@ -1,0 +1,176 @@
+{
+    "appName": {
+        "message": "Demandware With Ease"
+    },
+    "appDescription": {
+        "message": "Use Demandware Business Manager with ease!"
+    },
+    "appShortName": {
+        "message": "DWithEase"
+    },
+    "options_PageTitle": {
+        "message": "Options"
+    },
+    "options_labels_hour": {
+        "message": " heures "
+    },
+    "options_labels_minute": {
+        "message": " minute "
+    },
+    "options_labels_minutes": {
+        "message": " minutes "
+    },
+    "options_labels_seconds": {
+        "message": " secondes "
+    },
+    "options_labels_and": {
+        "message": " et "
+    },
+    "popup_buttons_new": {
+        "message": "nouveau"
+    },
+    "popup_buttons_add": {
+        "message": "Ajouter une configuration de grès"
+    },
+    "sandbox_title": {
+        "message": "Vos grès"
+    },
+    "sandbox_userName": {
+        "message": "Nom d'utilisateur"
+    },
+    "sandbox_domain": {
+        "message": "Domaine"
+    },
+    "sandbox_keepSession": {
+        "message": "Sauvegarder la session BM vivante"
+    },
+    "sandbox_automaticLogin": {
+        "message": "Identification automatique"
+    },
+    "sandbox_features_automaticlogin": {
+        "message": "Identification dans le BM automatiquement"
+    },
+    "sandbox_importsettings": {
+        "message": "Réglages importés"
+    },
+    "sandbox_buttons_newsandbox": {
+        "message": "Nouveau grès"
+    },
+    "sandbox_buttons_delete_dialog": {
+        "message": "Est-ce que tu veux supprimer grès $1 ?"
+    },
+    "sandbox_buttons_delete_group_dialog": {
+        "message": "Est-ce que tu veux supprimer groupe $1 ?"
+    },
+    "sandbox_buttons_delete_confirm": {
+        "message": "Oui"
+    },
+    "sandbox_buttons_delete_cancel": {
+        "message": "Refus"
+    },
+    "sandbox_buttons_open": {
+        "message": "Ouvrir"
+    },
+    "sandbox_buttons_edit": {
+        "message": "Rédiger"
+    },
+    "sandbox_buttons_visible": {
+        "message": "Visible"
+    },
+    "sandbox_buttons_delete": {
+        "message": "Supprimer"
+    },
+    "sandbox_buttons_save": {
+        "message": "Sauvegarder"
+    },
+    "sandbox_buttons_import": {
+        "message": "Importe"
+    },
+    "sandbox_buttons_import_overwrite": {
+        "message": "Sauvegarder de nouveau les réglages précédents"
+    },
+    "sandbox_buttons_export": {
+        "message": "Exportation"
+    },
+    "sandbox_form_sbinfo": {
+        "message": "Infomation pour le grès"
+    },
+    "sandbox_errors_required": {
+        "message": "Obligatoire"
+    },
+    "sandbox_errors_optional": {
+        "message": "Optionnel"
+    },
+    "general_title": {
+        "message": "Réglages"
+    },
+    "general_notifications": {
+        "message": "Notifications"
+    },
+    "general_colorlogs": {
+        "message": "Log coloré"
+    },
+    "about_title": {
+        "message": "À propos de nous"
+    },
+    "about_product_description": {
+        "message": "Une extension qui rend le Directeur commercial un endroit heureux! Profitez de Demandware avec facilité."
+    },
+    "about_product_version": {
+        "message": "Version $1 $2"
+    },
+    "about_tos": {
+        "message": "Ce travail est autorisé en vertu d'un $1 et utilise les projets open-source - Angularjs, Bootstrap et Font Awesome."
+    },
+    "about_buttons_info": {
+        "message": "Recevoir de l'aide"
+    },
+    "about_buttons_issues": {
+        "message": "Signaler un problème"
+    },
+    "about_buttons_changelog": {
+        "message": "Changements derniers"
+    },
+    "about_timesaved": {
+        "message": "Cette extension a sauvé $1 de votre vie!$2"
+    },
+    "about_author": {
+        "message": "Créé par"
+    },
+    "about_changelog": {
+        "message": "Changements"
+    },
+    "categories_sandboxes": {
+        "message": "Grès"
+    },
+    "categories_settings": {
+        "message": "Options"
+    },
+    "categories_about": {
+        "message": "À propos de nous"
+    },
+    "notifications_update_title": {
+        "message": "Nouvelle mise à jour est arrivé!"
+    },
+    "notifications_update_message1": {
+        "message": "Mis à jour à la version "
+    },
+    "notifications_update_message2": {
+        "message": "Cliquez ici si vous voulez voir le changements."
+    },
+    "notifications_password_title": {
+        "message": "Mot de passe incorrect!"
+    },
+    "notifications_password_message": {
+        "message": "Cliquez ici si vous voulez le changer."
+    },
+    "notifications_sandbox_title": {
+        "message": "Nouveau grès trouvé"
+    },
+    "notifications_sandbox_button_title": {
+        "message": "Tais-toi!"
+    },
+    "notifications_sandbox_message": {
+        "message": "Cliquez ici si vous voulez l'ajouter à vos grès."
+    }
+}

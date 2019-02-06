@@ -1,0 +1,185 @@
+{
+    "appName": {
+        "message": "Demandware With Ease"
+    },
+    "appDescription": {
+        "message": "Use Demandware Business Manager with ease!"
+    },
+    "appShortName": {
+        "message": "DWithEase"
+    },
+    "options_PageTitle": {
+        "message": "Options"
+    },
+    "options_labels_hour": {
+        "message": " часа "
+    },
+    "options_labels_minute": {
+        "message": " минута "
+    },
+    "options_labels_minutes": {
+        "message": " минути "
+    },
+    "options_labels_seconds": {
+        "message": " секунди "
+    },
+    "options_labels_and": {
+        "message": " и "
+    },
+    "popup_buttons_new": {
+        "message": "Нов"
+    },
+    "popup_buttons_add": {
+        "message": "Добави конфигурация за пясъчник"
+    },
+    "sandbox_title": {
+        "message": "Вашите пясъчници"
+    },
+    "sandbox_userName": {
+        "message": "Потребителско име"
+    },
+    "sandbox_domain": {
+        "message": "Домейн"
+    },
+    "sandbox_alias": {
+        "message": "Псевдоним"
+    },
+    "sandbox_keepSession": {
+        "message": "Запази БМ сесията жива"
+    },
+    "sandbox_automaticLogin": {
+        "message": "Автоматично влизане"
+    },
+    "sandbox_features_automaticlogin": {
+        "message": "Влизане в БМ автоматично"
+    },
+    "sandbox_importsettings": {
+        "message": "Импорт настройки"
+    },
+    "sandbox_buttons_newsandbox": {
+        "message": "Нов пясъчник"
+    },
+    "sandbox_buttons_add_alias": {
+        "message": "Добави псевдоним"
+    },
+    "sandbox_buttons_delete_dialog": {
+        "message": "Наистина ли искаш да изтриеш пясъчник $1 ?"
+    },
+    "sandbox_buttons_delete_group_dialog": {
+        "message": "Наистина ли искаш да изтриеш група $1 ?"
+    },
+    "sandbox_buttons_delete_confirm": {
+        "message": "Да"
+    },
+    "sandbox_buttons_delete_cancel": {
+        "message": "Отказ"
+    },
+    "sandbox_buttons_open": {
+        "message": "Отвори"
+    },
+    "sandbox_buttons_edit": {
+        "message": "Редактирай"
+    },
+    "sandbox_buttons_visible": {
+        "message": "Видима"
+    },
+    "sandbox_buttons_delete": {
+        "message": "Изтрий"
+    },
+    "sandbox_buttons_save": {
+        "message": "Запази"
+    },
+    "sandbox_buttons_import": {
+        "message": "Импорт"
+    },
+    "sandbox_buttons_import_overwrite": {
+        "message": "Презапиши предишните настройки"
+    },
+    "sandbox_buttons_export": {
+        "message": "Експорт"
+    },
+    "sandbox_form_sbinfo": {
+        "message": "Информация за пясъчника"
+    },
+    "sandbox_errors_required": {
+        "message": "Задължително"
+    },
+    "sandbox_errors_optional": {
+        "message": "По желание"
+    },
+    "general_title": {
+        "message": "Настройки"
+    },
+    "general_notifications": {
+        "message": "Известия"
+    },
+    "general_colorlogs": {
+        "message": "Цветни логове"
+    },
+    "general_scrolllogtobottom": {
+        "message": "Автоматично приплъзгване до края на лога"
+    },
+    "about_title": {
+        "message": "За нас"
+    },
+    "about_product_description": {
+        "message": "Приставка която прави бизнес мениджъра едно страхотно място! Насладете се на Demandware с лекота."
+    },
+    "about_product_version": {
+        "message": "Версия $1 $2"
+    },
+    "about_tos": {
+        "message": "Приставката е лицензирана под $1 и използва следните open-source технологии AngularJS, Bootstrap и Font Awesome."
+    },
+    "about_buttons_info": {
+        "message": "Получете помощ"
+    },
+    "about_buttons_issues": {
+        "message": "Изпратете бъг"
+    },
+    "about_buttons_changelog": {
+        "message": "Последни промени"
+    },
+    "about_timesaved": {
+        "message": "Тази приставка спести $1 от вашият живот! $2"
+    },
+    "about_author": {
+        "message": "Създадено от"
+    },
+    "about_changelog": {
+        "message": "Промени"
+    },
+    "categories_sandboxes": {
+        "message": "Пясъчници"
+    },
+    "categories_settings": {
+        "message": "Опции"
+    },
+    "categories_about": {
+        "message": "За нас"
+    },
+    "notifications_update_title": {
+        "message": "Получихте ново обновление!"
+    },
+    "notifications_update_message1": {
+        "message": "Обновено до версия "
+    },
+    "notifications_update_message2": {
+        "message": " Натиснете тук ако искате да видите промените."
+    },
+    "notifications_password_title": {
+        "message": "Грешна парола!"
+    },
+    "notifications_password_message": {
+        "message": "Натиснете тук, ако желаете да я смените."
+    },
+    "notifications_sandbox_title": {
+        "message": "Открит е нов пясъчник"
+    },
+    "notifications_sandbox_button_title": {
+        "message": "Млъкни!"
+    },
+    "notifications_sandbox_message": {
+        "message": "Натиснете тук, ако искате да го добавите към вашите пясъчници."
+    }
+}

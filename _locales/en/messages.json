@@ -1,0 +1,320 @@
+{
+    "appName": {
+        "message": "Demandware With Ease"
+    },
+    "appDescription": {
+        "message": "Use Demandware Business Manager with ease!"
+    },
+    "appShortName": {
+        "message": "DWithEase"
+    },
+    "options_PageTitle": {
+        "message": "Options"
+    },
+    "options_labels_hour": {
+        "message": " hours "
+    },
+    "options_labels_minute": {
+        "message": " minute "
+    },
+    "options_labels_minutes": {
+        "message": " minutes "
+    },
+    "options_labels_seconds": {
+        "message": " seconds "
+    },
+    "options_labels_and": {
+        "message": " and "
+    },
+    "popup_buttons_new": {
+        "message": "New"
+    },
+    "popup_buttons_add": {
+        "message": "Add Sandbox"
+    },
+    "sandbox_title": {
+        "message": "Sandbox Configurations"
+    },
+    "sandbox_userName": {
+        "message": "Username"
+    },
+    "sandbox_domain": {
+        "message": "Domain"
+    },
+    "sandbox_alias": {
+        "message": "Alias"
+    },
+    "sandbox_keepSession": {
+        "message": "Keep BM Session Alive"
+    },
+    "sandbox_automaticLogin": {
+        "message": "Automatic login"
+    },
+    "sandbox_features_automaticlogin": {
+        "message": "Login in BM automatically"
+    },
+    "sandbox_importsettings": {
+        "message": "Import Settings"
+    },
+    "sandbox_buttons_newsandbox": {
+        "message": "New Sandbox"
+    },
+    "sandbox_buttons_add_alias": {
+        "message": "Add alias"
+    },
+    "sandbox_buttons_delete_dialog": {
+        "message": "Do you really want to delete sandbox configuration $1 ?"
+    },
+    "sandbox_buttons_ungroup_dialog_line1": {
+        "message": "Do you really want to ungroup all $1 sandbox configurations?"
+    },
+    "sandbox_buttons_ungroup_dialog_line2": {
+        "message": "Sandbox configurations assigned to the group will be moved to the Uncategorized group."
+    },
+    "sandbox_buttons_delete_confirm": {
+        "message": "Yes"
+    },
+    "sandbox_buttons_delete_cancel": {
+        "message": "Cancel"
+    },
+    "sandbox_buttons_open": {
+        "message": "Open"
+    },
+    "sandbox_buttons_edit": {
+        "message": "Edit"
+    },
+    "sandbox_buttons_visible": {
+        "message": "Visible in extension popup"
+    },
+    "sandbox_buttons_copy": {
+        "message": "Copy"
+    },
+    "sandbox_buttons_delete": {
+        "message": "Delete"
+    },
+    "sandbox_buttons_save": {
+        "message": "Save"
+    },
+    "sandbox_buttons_ungroup": {
+        "message": "Ungroup"
+    },
+    "sandbox_buttons_import": {
+        "message": "Import"
+    },
+    "sandbox_buttons_import_overwrite": {
+        "message": "Overwrite existing configurations"
+    },
+    "sandbox_buttons_export": {
+        "message": "Export"
+    },
+    "sandbox_form_sbinfo": {
+        "message": "Sandbox Configuration"
+    },
+    "menu_title": {
+        "message": "Menu"
+    },
+    "general_title": {
+        "message": "Settings"
+    },
+    "general_notifications": {
+        "message": "Notifications"
+    },
+    "show_bm_toolbar": {
+        "message": "BM Toolbar"
+    },
+    "general_colorlogs": {
+        "message": "Color Logs"
+    },
+    "menu_delete_item_confirmation_dialog": {
+        "message": "Do you really want to delete menu $1 ?"
+    },
+    "about_title": {
+        "message": "About us"
+    },
+    "about_product_description": {
+        "message": "An extension which makes the Business Manager a happy place! Enjoy using Demandware with ease."
+    },
+    "about_product_version": {
+        "message": "Version $1 $2"
+    },
+    "about_tos": {
+        "message": "This work is licensed under a $1 and uses the open-source projects AngularJS, Bootstrap and Font Awesome."
+    },
+    "about_buttons_info": {
+        "message": "Get help with using DWithEase"
+    },
+    "about_buttons_issues": {
+        "message": "Report an issue"
+    },
+    "about_buttons_changelog": {
+        "message": "Changelog"
+    },
+    "about_buttons_check_timesaved": {
+        "message": "See more"
+    },
+    "about_timesaved": {
+        "message": "This extension saved $1 of your life! $2"
+    },
+    "about_author": {
+        "message": "Created by"
+    },
+    "about_changelog": {
+        "message": "Changelog"
+    },
+    "about_saved_time_header": {
+        "message": "Saved Time"
+    },
+    "about_saved_time_total": {
+        "message": "Total:"
+    },
+    "categories_sandboxes": {
+        "message": "Sandboxes"
+    },
+    "categories_menu": {
+        "message": "Menu"
+    },
+    "categories_settings": {
+        "message": "Settings"
+    },
+    "categories_about": {
+        "message": "About"
+    },
+    "notifications_update_title": {
+        "message": "New update arrived!"
+    },
+    "notifications_update_message1": {
+        "message": "Updated to version "
+    },
+    "notifications_update_message2": {
+        "message": "\nClick here if you want to see the changelog."
+    },
+    "notifications_password_title": {
+        "message": "Wrong password input!"
+    },
+    "notifications_password_message": {
+        "message": "Click here if you want to change it."
+    },
+    "notifications_sandbox_title": {
+        "message": "New sandbox found"
+    },
+    "notifications_sandbox_button_title": {
+        "message": "Shut up!"
+    },
+    "notifications_sandbox_message": {
+        "message": "Click here if you want to add it to your sandboxes."
+    },
+    "general_scrolllogtobottom": {
+        "message": "Scroll Log Files To Bottom"
+    },
+    "general_trimlogs": {
+        "message": "Trim Log Files"
+    },
+    "general_beautifylogs": {
+        "message": "Beautify Log Files"
+    },
+    "general_disableinproduction": {
+        "message": "Disable Extension in Production"
+    },
+    "general_exchange_autologin": {
+        "message": "Automatically login in XChange / Documentation"
+    },
+    "general_exchange_keepsessionactive": {
+        "message": "Keep XChange / Documentation Session Alive"
+    },
+    "general_exchange_username": {
+        "message": "XChange Username"
+    },
+    "general_exchange_password": {
+        "message": "XChange Password"
+    },
+    "general_exchange_password_masked": {
+        "message": "The password is masked"
+    },
+    "toolbar_always_show": {
+        "message": "Always show"
+    },
+    "toolbar_auto_hide": {
+        "message": "Auto hide"
+    },
+    "toolbar_hidden": {
+        "message": "Don't show"
+    },
+    "forms_messages_required": {
+        "message": "Required"
+    },
+    "forms_messages_optional": {
+        "message": "Optional"
+    },
+    "welcome_page_header": {
+        "message": "Thank you for installing Demandware with Ease"
+    },
+    "welcome_page_paragraph": {
+        "message": "Congratulations! You have taken the first step for improving your Salesforce B2C experience."
+    },
+    "welcome_page_suggest": {
+        "message": "While you are still here"
+    },
+    "welcome_page_features_button": {
+        "message": "Check all our features"
+    },
+    "update_page_title": {
+        "message": "Version $1 is here!"
+    },
+    "update_page_whats_new": {
+        "message": "What's new?"
+    },
+    "update_page_new_version_title": {
+        "message": "What's new in $1?"
+    },
+    "update_page_version_title": {
+        "message": "Version $1"
+    },
+    "update_page_bugs_fixed_title": {
+        "message": "Bugs fixed:"
+    },
+    "update_page_planned_features_title": {
+        "message": "Next versions will feature:"
+    },
+    "update_page_about_button": {
+        "message": "Learn More"
+    },
+    "buy_a_beer": {
+        "message": "If you like our work, buy us a <span class=\"icon beer flippedX\"></span>beer</a>"
+    },
+    "subscribe_newsletter": {
+        "message": "<span class=\"icon subscribe\"></span>Subscribe to our newsletter"
+    },
+    "welcome_review": {
+        "message": "<span class=\"icon review\"></span>Tell us what you think"
+    },
+    "autoLogin": {
+        "message": "Automatic Login In Business Manager"
+    },
+    "autoformatJson": {
+        "message": "Formatting JSON"
+    },
+    "autoformatHTML": {
+        "message": "Formatting HTML"
+    },
+    "invalidateCache": {
+        "message": "Invalidating cache"
+    },
+    "rebuildSearchIndexes": {
+        "message": "Rebuilding Search Indexes"
+    },
+    "manageCodeVersion": {
+        "message": "Managing Code Versions"
+    },
+    "hotkeys": {
+        "message": "Hotkeys"
+    },
+    "contextMenu": {
+        "message": "Context Menu"
+    },
+    "beautify": {
+        "message": "Beautifying Logs / Directories"
+    },
+    "uploadFile": {
+        "message": "Uploading files"
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "appName": {
+        "message": "Demandware With Ease"
+    },
+    "appDescription": {
+        "message": "Use Demandware Business Manager with ease!"
+    },
+    "appShortName": {
+        "message": "DWithEase"
+    },
+    "options_PageTitle": {
+        "message": "Подешавања"
+    },
+    "options_labels_hour": {
+        "message": " сати "
+    },
+    "options_labels_minute": {
+        "message": " минут "
+    },
+    "options_labels_minutes": {
+        "message": " минути "
+    },
+    "options_labels_seconds": {
+        "message": " секунди "
+    },
+    "options_labels_and": {
+        "message": " и "
+    },
+    "popup_buttons_new": {
+        "message": "Нова"
+    },
+    "popup_buttons_add": {
+        "message": "Додајте нову конфигурацију за инстанцу"
+    },
+    "sandbox_title": {
+        "message": "Ваше инстанце"
+    },
+    "sandbox_userName": {
+        "message": "Име"
+    },
+    "sandbox_domain": {
+        "message": "Домен"
+    },
+    "sandbox_keepSession": {
+        "message": "Одржавај сесију"
+    },
+    "sandbox_automaticLogin": {
+        "message": "Аутоматска пријава"
+    },
+    "sandbox_features_automaticlogin": {
+        "message": "Аутоматска пријава"
+    },
+    "sandbox_importsettings": {
+        "message": "Подешавање увоза"
+    },
+    "sandbox_buttons_newsandbox": {
+        "message": "Нова инстанца"
+    },
+    "sandbox_buttons_delete_dialog": {
+        "message": "Да ли заиста желите да обришете инстанцу $1 ?"
+    },
+    "sandbox_buttons_delete_group_dialog": {
+        "message": "Да ли заиста желите да обришете групо $1 ?"
+    },
+    "sandbox_buttons_delete_confirm": {
+        "message": "Да"
+    },
+    "sandbox_buttons_delete_cancel": {
+        "message": "Откажи"
+    },
+    "sandbox_buttons_open": {
+        "message": "Отвори"
+    },
+    "sandbox_buttons_edit": {
+        "message": "Измени"
+    },
+    "sandbox_buttons_visible": {
+        "message": "Видљив"
+    },
+    "sandbox_buttons_delete": {
+        "message": "Обриши"
+    },
+    "sandbox_buttons_save": {
+        "message": "Сними"
+    },
+    "sandbox_buttons_import": {
+        "message": "Увези"
+    },
+    "sandbox_buttons_import_overwrite": {
+        "message": "Прегази претходна подешавања"
+    },
+    "sandbox_buttons_export": {
+        "message": "Извези"
+    },
+    "sandbox_form_sbinfo": {
+        "message": "Подаци о инстанци"
+    },
+    "sandbox_errors_required": {
+        "message": "Обавезно"
+    },
+    "sandbox_errors_optional": {
+        "message": "Обавезно"
+    },
+    "general_title": {
+        "message": "Подешавања"
+    },
+    "general_notifications": {
+        "message": "Обавештења"
+    },
+    "general_colorlogs": {
+        "message": "Color Logs"
+    },
+    "about_title": {
+        "message": "О нама"
+    },
+    "about_product_description": {
+        "message": "Екстензија која ће учинити Business Manager пријатнијим. Уживајте користећи Demandware with ease."
+    },
+    "about_product_version": {
+        "message": "Верзија $1 $2"
+    },
+    "about_tos": {
+        "message": "Овај пројекат је лиценциран под $1 и користи open source пројекте AngularJS, Bootstrap и Font Awesome."
+    },
+    "about_buttons_info": {
+        "message": "Помоћ при коришћењу DWithEase"
+    },
+    "about_buttons_issues": {
+        "message": "Пријави проблем"
+    },
+    "about_buttons_changelog": {
+        "message": "Подаци о изменама"
+    },
+    "about_timesaved": {
+        "message": "Ова екстензија је уштедела $1 вашег живота! $2"
+    },
+    "about_author": {
+        "message": "Аутор"
+    },
+    "about_changelog": {
+        "message": "Подаци о изменама"
+    },
+    "categories_sandboxes": {
+        "message": "Инстанце"
+    },
+    "categories_settings": {
+        "message": "Могућности"
+    },
+    "categories_about": {
+        "message": "О пројекту"
+    },
+    "notifications_update_title": {
+        "message": "Доступна је ажурирана верзија!"
+    },
+    "notifications_update_message1": {
+        "message": "Ажурирано верзијом "
+    },
+    "notifications_update_message2": {
+        "message": "\nКликните овде да видите податке о изменама."
+    },
+    "notifications_password_title": {
+        "message": "Погрешна шифра!"
+    },
+    "notifications_password_message": {
+        "message": "Кликни овде ако желиш да је промениш."
+    },
+    "notifications_sandbox_title": {
+        "message": "Пронађена нова инстанца"
+    },
+    "notifications_sandbox_button_title": {
+        "message": "Престани!"
+    },
+    "notifications_sandbox_message": {
+        "message": "Кликни овде ако желиш да је снимиш у своје инстанце."
+    }
+}
