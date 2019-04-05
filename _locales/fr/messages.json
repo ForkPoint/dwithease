@@ -30,10 +30,10 @@
         "message": "nouveau"
     },
     "popup_buttons_add": {
-        "message": "Ajouter une configuration de grès"
+        "message": "Ajouter une configuration d'instance"
     },
     "sandbox_title": {
-        "message": "Vos grès"
+        "message": "Vos instances"
     },
     "sandbox_userName": {
         "message": "Nom d'utilisateur"
@@ -41,41 +41,56 @@
     "sandbox_domain": {
         "message": "Domaine"
     },
+    "sandbox_alias": {
+        "message": "Alias"
+    },
     "sandbox_keepSession": {
-        "message": "Sauvegarder la session BM vivante"
+        "message": "Garder la session BM ouverte"
     },
     "sandbox_automaticLogin": {
         "message": "Identification automatique"
     },
     "sandbox_features_automaticlogin": {
-        "message": "Identification dans le BM automatiquement"
+        "message": "Identification automatique dans le BM"
     },
     "sandbox_importsettings": {
-        "message": "Réglages importés"
+        "message": "Importer les réglages"
     },
     "sandbox_buttons_newsandbox": {
-        "message": "Nouveau grès"
+        "message": "Nouvelle instance"
+    },
+    "sandbox_buttons_add_alias": {
+        "message": "Ajouter un alias"
     },
     "sandbox_buttons_delete_dialog": {
-        "message": "Est-ce que tu veux supprimer grès $1 ?"
+        "message": "Voulez-vous supprimer l'instance $1 ?"
     },
     "sandbox_buttons_delete_group_dialog": {
-        "message": "Est-ce que tu veux supprimer groupe $1 ?"
+        "message": "Voulez-vous supprimer le groupe $1 ?"
+    },
+    "sandbox_buttons_ungroup_dialog_line1": {
+        "message": "Voulez-vous dégrouper toutes les configurations d'instances de $1 ?"
+    },
+    "sandbox_buttons_ungroup_dialog_line2": {
+        "message": "Les configurations d'instances assignées au groupes seront déplacées vers le groupe Uncategorized."
     },
     "sandbox_buttons_delete_confirm": {
         "message": "Oui"
     },
     "sandbox_buttons_delete_cancel": {
-        "message": "Refus"
+        "message": "Annuler"
     },
     "sandbox_buttons_open": {
         "message": "Ouvrir"
     },
     "sandbox_buttons_edit": {
-        "message": "Rédiger"
+        "message": "Modifier"
     },
     "sandbox_buttons_visible": {
-        "message": "Visible"
+        "message": "Visible dans la popup de l'extension"
+    },
+    "sandbox_buttons_copy": {
+        "message": "Copier"
     },
     "sandbox_buttons_delete": {
         "message": "Supprimer"
@@ -83,17 +98,20 @@
     "sandbox_buttons_save": {
         "message": "Sauvegarder"
     },
+    "sandbox_buttons_ungroup": {
+        "message": "Dégrouper"
+    },
     "sandbox_buttons_import": {
-        "message": "Importe"
+        "message": "Importer"
     },
     "sandbox_buttons_import_overwrite": {
-        "message": "Sauvegarder de nouveau les réglages précédents"
+        "message": "Ecraser les réglages précédents"
     },
     "sandbox_buttons_export": {
-        "message": "Exportation"
+        "message": "Exporter"
     },
     "sandbox_form_sbinfo": {
-        "message": "Infomation pour le grès"
+        "message": "Configuration de l'instance"
     },
     "sandbox_errors_required": {
         "message": "Obligatoire"
@@ -101,26 +119,35 @@
     "sandbox_errors_optional": {
         "message": "Optionnel"
     },
+    "menu_title": {
+        "message": "Menu"
+    },
     "general_title": {
         "message": "Réglages"
     },
     "general_notifications": {
         "message": "Notifications"
     },
+    "show_bm_toolbar": {
+        "message": "BM Toolbar"
+    },
     "general_colorlogs": {
-        "message": "Log coloré"
+        "message": "Logs colorés"
+    },
+    "menu_delete_item_confirmation_dialog": {
+        "message": "Voulez-vous vraiment supprimer le menu $1 ?"
     },
     "about_title": {
         "message": "À propos de nous"
     },
     "about_product_description": {
-        "message": "Une extension qui rend le Directeur commercial un endroit heureux! Profitez de Demandware avec facilité."
+        "message": "Une extension qui fait du Business Manager un endroit plus cosy ! Profitez de Demandware avec facilité."
     },
     "about_product_version": {
         "message": "Version $1 $2"
     },
     "about_tos": {
-        "message": "Ce travail est autorisé en vertu d'un $1 et utilise les projets open-source - Angularjs, Bootstrap et Font Awesome."
+        "message": "Ce projet est protégé par $1 et utilise les projets open-source - AngularJS, Bootstrap et Font Awesome."
     },
     "about_buttons_info": {
         "message": "Recevoir de l'aide"
@@ -129,10 +156,13 @@
         "message": "Signaler un problème"
     },
     "about_buttons_changelog": {
-        "message": "Changements derniers"
+        "message": "Derniers changements"
+    },
+    "about_buttons_check_timesaved": {
+        "message": "Voir plus"
     },
     "about_timesaved": {
-        "message": "Cette extension a sauvé $1 de votre vie!$2"
+        "message": "Cette extension a sauvé $1 de votre vie ! $2"
     },
     "about_author": {
         "message": "Créé par"
@@ -140,8 +170,17 @@
     "about_changelog": {
         "message": "Changements"
     },
+    "about_saved_time_header": {
+        "message": "Temps économisé"
+    },
+    "about_saved_time_total": {
+        "message": "Total:"
+    },
     "categories_sandboxes": {
-        "message": "Grès"
+        "message": "Instances"
+    },
+    "categories_menu": {
+        "message": "Menu"
     },
     "categories_settings": {
         "message": "Options"
@@ -150,27 +189,141 @@
         "message": "À propos de nous"
     },
     "notifications_update_title": {
-        "message": "Nouvelle mise à jour est arrivé!"
+        "message": "Une nouvelle mise à jour est arrivée !"
     },
     "notifications_update_message1": {
-        "message": "Mis à jour à la version "
+        "message": "Mis à jour vers la version "
     },
     "notifications_update_message2": {
-        "message": "Cliquez ici si vous voulez voir le changements."
+        "message": "Cliquez ici pour voir les changements."
     },
     "notifications_password_title": {
-        "message": "Mot de passe incorrect!"
+        "message": "Mot de passe incorrect !"
     },
     "notifications_password_message": {
         "message": "Cliquez ici si vous voulez le changer."
     },
     "notifications_sandbox_title": {
-        "message": "Nouveau grès trouvé"
+        "message": "Nouvelle instance détectée"
     },
     "notifications_sandbox_button_title": {
-        "message": "Tais-toi!"
+        "message": "Tais-toi !"
     },
     "notifications_sandbox_message": {
-        "message": "Cliquez ici si vous voulez l'ajouter à vos grès."
+        "message": "Cliquez ici si pour l'ajouter à vos instances."
+    },
+    "general_scrolllogtobottom": {
+        "message": "Se positionner à la fin du log"
+    },
+    "general_trimlogs": {
+        "message": "Raccourcir les logs"
+    },
+    "general_beautifylogs": {
+        "message": "Améliorer les logs"
+    },
+    "general_disableinproduction": {
+        "message": "Désactiver l'extension en Production"
+    },
+    "general_exchange_autologin": {
+        "message": "Se logger automatiquement dans XChange / Documentation"
+    },
+    "general_exchange_keepsessionactive": {
+        "message": "Maintenir les sessions XChange / Documentation"
+    },
+    "general_exchange_username": {
+        "message": "Nom d'utilisateur XChange"
+    },
+    "general_exchange_password": {
+        "message": "Mot de passe XChange"
+    },
+    "general_exchange_password_masked": {
+        "message": "Le mot de passe est masqué"
+    },
+    "toolbar_always_show": {
+        "message": "Toujours afficher"
+    },
+    "toolbar_auto_hide": {
+        "message": "Cacher automatiquement"
+    },
+    "toolbar_hidden": {
+        "message": "Ne pas afficher"
+    },
+    "forms_messages_required": {
+        "message": "Requis"
+    },
+    "forms_messages_optional": {
+        "message": "Optionnel"
+    },
+    "welcome_page_header": {
+        "message": "Merci d'avoir installé Demandware with Ease"
+    },
+    "welcome_page_paragraph": {
+        "message": "Félicitations! Vous avez franchi la première étape pour améliorer votre expérience Salesforce B2C."
+    },
+    "welcome_page_suggest": {
+        "message": "Puisque vous êtes toujours là"
+    },
+    "welcome_page_features_button": {
+        "message": "Voici toutes nos fonctionnalités"
+    },
+    "update_page_title": {
+        "message": "La version $1 est là !"
+    },
+    "update_page_whats_new": {
+        "message": "Quoi de neuf ?"
+    },
+    "update_page_new_version_title": {
+        "message": "Quoi de neuf dans $1?"
+    },
+    "update_page_version_title": {
+        "message": "Version $1"
+    },
+    "update_page_bugs_fixed_title": {
+        "message": "Bugs fixés :"
+    },
+    "update_page_planned_features_title": {
+        "message": "Les fonctionnalités à venir :"
+    },
+    "update_page_about_button": {
+        "message": "En savoir plus"
+    },
+    "buy_a_beer": {
+        "message": "Si vous appréciez notre travail, payez nous une <span class=\"icon beer flippedX\"></span>bière</a>"
+    },
+    "subscribe_newsletter": {
+        "message": "<span class=\"icon subscribe\"></span>S'inscrire à notre newsletter"
+    },
+    "welcome_review": {
+        "message": "<span class=\"icon review\"></span>Dites-nous ce que vous pensez"
+    },
+    "autoLogin": {
+        "message": "Se connecter automatiquement dans le Business Manager"
+    },
+    "autoformatJson": {
+        "message": "Formatting JSON"
+    },
+    "autoformatHTML": {
+        "message": "Formatting HTML"
+    },
+    "invalidateCache": {
+        "message": "Invalidating cache"
+    },
+    "rebuildSearchIndexes": {
+        "message": "Rebuilding Search Indexes"
+    },
+    "manageCodeVersion": {
+        "message": "Managing Code Versions"
+    },
+    "hotkeys": {
+        "message": "Raccourcis"
+    },
+    "contextMenu": {
+        "message": "Menu contextuel"
+    },
+    "beautify": {
+        "message": "Beautifying Logs / Directories"
+    },
+    "uploadFile": {
+        "message": "Uploading files"
     }
 }
