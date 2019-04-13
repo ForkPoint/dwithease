@@ -1,15 +1,17 @@
 # Demandware with ease
-
+---
 ### This repository contains only the localization files for the extension. Any contributions to the translations are always welcome and gladly appreciated!
 
-### Use Salesforce Commerce Cloud B2C ( Demandware ) with ease!
-
-### An extension which makes Salesforce Commerce Cloud B2C ( Demandware ) a happy place!
-
+---
+### Use Salesforce Commerce Cloud B2C with ease!
+---
+### An extension which makes Salesforce Commerce Cloud B2C a happy place!
+---
 ### This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
-
+---
 ## List of functionalities
-### Options Page
+---
+## Options Page
 #### Store your sandboxes
     You can store all of your sandbox instances, and use individual options for each of them.
 
@@ -34,16 +36,15 @@
     Notifications - turn on/off notifications.
     Scroll log to bottom - scrolls you to the bottom of the page when you are inside .log file
     Trim logs (X) - turn on/off trim of files lines inside .log file
-    Beautify logs (none,colorize,beautify) - formats the logs for better readability.
-    Automatically login in xChange/Doc - turn on/off, will auto login if credentials are present
-    Keep Xchange/Doc session alive - makes the xchange/doc session never expire.
+    Beautify logs (none,colorize,beautify) - formats the logs for better readability
+    Automatically login in XChange - turn on/off, will auto login if credentials are present
+    Keep XChange session alive - makes the XChange session never expire
 
 #### Select Default Site
-    Specifies a site to be selected upon log-in, to disable this function, leave blank.
+    Specifies a site to be selected upon log-in, to disable this function, leave blank
 
 #### Import / Export
-    Import & Export your sandbox configurations in JSON config file,
-    if you do not want to loose your settings.Passwords are not exported.
+    Import & Export your sandbox configurations in JSON config file.Passwords are not exported.
 
 ## Menu Page
 #### Context menu
