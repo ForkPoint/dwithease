@@ -32,6 +32,9 @@
     "popup_buttons_add": {
         "message": "Add Sandbox"
     },
+    "popup_tooltip_context_menu": {
+        "message": "Context Menu"
+    },
     "sandbox_title": {
         "message": "Sandbox Configurations"
     },
@@ -110,8 +113,11 @@
     "sandbox_form_sbinfo": {
         "message": "Sandbox Configuration"
     },
-    "menu_title": {
-        "message": "Menu"
+    "page_context_menu_title": {
+        "message": "Context Menu"
+    },
+    "page_context_menu_description": {
+        "message": "You can configure the URLs that you want to use in your customized browser context menu as shortcuts. The context menu can be accessed by right clicking inside a saved sandbox browser tab. Rearange positions with drag and drop, or add new items to the context menu."
     },
     "general_title": {
         "message": "Settings"
@@ -124,6 +130,30 @@
     },
     "general_colorlogs": {
         "message": "Color Logs"
+    },
+    "general_scrolllogtobottom": {
+        "message": "Scroll Log Files To Bottom"
+    },
+    "general_trimlogs": {
+        "message": "Trim Log Files"
+    },
+    "general_beautifylogs": {
+        "message": "Beautify Log Files"
+    },
+    "general_exchange_autologin": {
+        "message": "Automatically login in XChange"
+    },
+    "general_exchange_keepsessionactive": {
+        "message": "Keep XChange Session Alive"
+    },
+    "general_exchange_username": {
+        "message": "XChange Username"
+    },
+    "general_exchange_password": {
+        "message": "XChange Password"
+    },
+    "general_exchange_password_masked": {
+        "message": "The password is masked"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Do you really want to delete menu $1 ?"
@@ -138,7 +168,7 @@
         "message": "Version $1 $2"
     },
     "about_tos": {
-        "message": "This work is licensed under a $1 and uses the open-source projects AngularJS, Bootstrap and Font Awesome."
+        "message": "This work is licensed under a $1 and uses the open-source projects AngularJS, Angular Material Design and Font Awesome."
     },
     "about_buttons_info": {
         "message": "Get help with using DWithEase"
@@ -170,8 +200,8 @@
     "categories_sandboxes": {
         "message": "Sandboxes"
     },
-    "categories_menu": {
-        "message": "Menu"
+    "categories_context_menu": {
+        "message": "Context Menu"
     },
     "categories_settings": {
         "message": "Settings"
@@ -203,33 +233,6 @@
     "notifications_sandbox_message": {
         "message": "Click here if you want to add it to your sandboxes."
     },
-    "general_scrolllogtobottom": {
-        "message": "Scroll Log Files To Bottom"
-    },
-    "general_trimlogs": {
-        "message": "Trim Log Files"
-    },
-    "general_beautifylogs": {
-        "message": "Beautify Log Files"
-    },
-    "general_disableinproduction": {
-        "message": "Disable Extension in Production"
-    },
-    "general_exchange_autologin": {
-        "message": "Automatically login in XChange / Documentation"
-    },
-    "general_exchange_keepsessionactive": {
-        "message": "Keep XChange / Documentation Session Alive"
-    },
-    "general_exchange_username": {
-        "message": "XChange Username"
-    },
-    "general_exchange_password": {
-        "message": "XChange Password"
-    },
-    "general_exchange_password_masked": {
-        "message": "The password is masked"
-    },
     "toolbar_always_show": {
         "message": "Always show"
     },
@@ -239,53 +242,38 @@
     "toolbar_hidden": {
         "message": "Don't show"
     },
-    "forms_messages_required": {
-        "message": "Required"
-    },
-    "forms_messages_optional": {
-        "message": "Optional"
-    },
     "welcome_page_header": {
-        "message": "Thank you for installing Demandware with Ease"
+        "message": "Thank you for installing Demandware with Ease!"
     },
     "welcome_page_paragraph": {
-        "message": "Congratulations! You have taken the first step for improving your Salesforce B2C experience."
+        "message": "Congratulations! You have taken the first step for improving your Salesforce Commerce Cloud B2C experience."
     },
     "welcome_page_suggest": {
-        "message": "While you are still here"
+        "message": "While we got your attention"
     },
     "welcome_page_features_button": {
-        "message": "Check all our features"
+        "message": "Browse all features"
     },
     "update_page_title": {
         "message": "Version $1 is here!"
     },
     "update_page_whats_new": {
-        "message": "What's new?"
+        "message": "What's new ?"
     },
     "update_page_new_version_title": {
-        "message": "What's new in $1?"
+        "message": "What's new in $1 ?"
     },
     "update_page_version_title": {
         "message": "Version $1"
     },
     "update_page_bugs_fixed_title": {
-        "message": "Bugs fixed:"
+        "message": "Bug fixes:"
     },
     "update_page_planned_features_title": {
         "message": "Next versions will feature:"
     },
     "update_page_about_button": {
         "message": "Learn More"
-    },
-    "buy_a_beer": {
-        "message": "If you like our work, buy us a <span class=\"icon beer flippedX\"></span>beer</a>"
-    },
-    "subscribe_newsletter": {
-        "message": "<span class=\"icon subscribe\"></span>Subscribe to our newsletter"
-    },
-    "welcome_review": {
-        "message": "<span class=\"icon review\"></span>Tell us what you think"
     },
     "autoLogin": {
         "message": "Automatic Login In Business Manager"
@@ -316,5 +304,11 @@
     },
     "uploadFile": {
         "message": "Uploading files"
+    },
+    "forms_messages_required": {
+        "message": "Required"
+    },
+    "forms_messages_optional": {
+        "message": "Optional"
     }
 }

@@ -65,9 +65,6 @@
     "sandbox_buttons_delete_dialog": {
         "message": "Voulez-vous supprimer l'instance $1 ?"
     },
-    "sandbox_buttons_delete_group_dialog": {
-        "message": "Voulez-vous supprimer le groupe $1 ?"
-    },
     "sandbox_buttons_ungroup_dialog_line1": {
         "message": "Voulez-vous dégrouper toutes les configurations d'instances de $1 ?"
     },
@@ -113,11 +110,11 @@
     "sandbox_form_sbinfo": {
         "message": "Configuration de l'instance"
     },
-    "sandbox_errors_required": {
-        "message": "Obligatoire"
+    "page_context_menu_title": {
+        "message": "Menu contextuel"
     },
-    "sandbox_errors_optional": {
-        "message": "Optionnel"
+    "page_context_menu_description": {
+        "message": "You can configure the URLs that you want to use in your customized browser context menu as shortcuts. The context menu can be accessed by right clicking inside a saved sandbox browser tab. Rearange positions with drag and drop, or add new items to the context menu."
     },
     "menu_title": {
         "message": "Menu"
@@ -179,8 +176,8 @@
     "categories_sandboxes": {
         "message": "Instances"
     },
-    "categories_menu": {
-        "message": "Menu"
+    "categories_context_menu": {
+        "message": "Menu contextuel"
     },
     "categories_settings": {
         "message": "Options"
@@ -221,9 +218,6 @@
     "general_beautifylogs": {
         "message": "Améliorer les logs"
     },
-    "general_disableinproduction": {
-        "message": "Désactiver l'extension en Production"
-    },
     "general_exchange_autologin": {
         "message": "Se logger automatiquement dans XChange / Documentation"
     },
@@ -247,12 +241,6 @@
     },
     "toolbar_hidden": {
         "message": "Ne pas afficher"
-    },
-    "forms_messages_required": {
-        "message": "Requis"
-    },
-    "forms_messages_optional": {
-        "message": "Optionnel"
     },
     "welcome_page_header": {
         "message": "Merci d'avoir installé Demandware with Ease"
@@ -325,5 +313,11 @@
     },
     "uploadFile": {
         "message": "Uploading files"
+    },
+    "forms_messages_required": {
+        "message": "Requis"
+    },
+    "forms_messages_optional": {
+        "message": "Optionnel"
     }
 }

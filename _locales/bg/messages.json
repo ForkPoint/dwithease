@@ -32,6 +32,9 @@
     "popup_buttons_add": {
         "message": "Добави конфигурация за пясъчник"
     },
+    "popup_tooltip_context_menu": {
+        "message": "Контекстно меню"
+    },
     "sandbox_title": {
         "message": "Вашите пясъчници"
     },
@@ -65,8 +68,11 @@
     "sandbox_buttons_delete_dialog": {
         "message": "Наистина ли искаш да изтриеш пясъчник $1 ?"
     },
-    "sandbox_buttons_delete_group_dialog": {
-        "message": "Наистина ли искаш да изтриеш група $1 ?"
+    "sandbox_buttons_ungroup_dialog_line1": {
+        "message": "Наистина ли искаш да разгрупираш всички конфигурации от група $1 ?"
+    },
+    "sandbox_buttons_ungroup_dialog_line2": {
+        "message": "Групираните конфигурации ще бъдат преместени в група Uncategorized."
     },
     "sandbox_buttons_delete_confirm": {
         "message": "Да"
@@ -83,11 +89,17 @@
     "sandbox_buttons_visible": {
         "message": "Видима"
     },
+    "sandbox_buttons_copy": {
+        "message": "Копирай"
+    },
     "sandbox_buttons_delete": {
         "message": "Изтрий"
     },
     "sandbox_buttons_save": {
         "message": "Запази"
+    },
+    "sandbox_buttons_ungroup": {
+        "message": "Разгрупиране"
     },
     "sandbox_buttons_import": {
         "message": "Импорт"
@@ -101,11 +113,11 @@
     "sandbox_form_sbinfo": {
         "message": "Информация за пясъчника"
     },
-    "sandbox_errors_required": {
-        "message": "Задължително"
+    "page_context_menu_title": {
+        "message": "Контекстно меню"
     },
-    "sandbox_errors_optional": {
-        "message": "По желание"
+    "page_context_menu_description": {
+        "message": "Можете да конфигурирате вашите любими URLs, които в последствие да използвате в контекстното меню за бърз и лесен достъп. Контекстното меню може да се достъпи, като кликнете с десен бутон в контекста/таба на запазена конфигурация. Можете да размерствате позицията на елементите с drag & drop, както и да добавите нова конфигурация в контекстното меню."
     },
     "general_title": {
         "message": "Настройки"
@@ -113,11 +125,38 @@
     "general_notifications": {
         "message": "Известия"
     },
+    "show_bm_toolbar": {
+        "message": "BM Toolbar"
+    },
     "general_colorlogs": {
         "message": "Цветни логове"
     },
     "general_scrolllogtobottom": {
         "message": "Автоматично приплъзгване до края на лога"
+    },
+    "general_trimlogs": {
+        "message": "Изрязване на Log файловете"
+    },
+    "general_beautifylogs": {
+        "message": "Окрасени Log файлове"
+    },
+    "general_exchange_autologin": {
+        "message": "Автоматична аутентикация в XChange"
+    },
+    "general_exchange_keepsessionactive": {
+        "message": "Запази XChange сесията жива"
+    },
+    "general_exchange_username": {
+        "message": "XChange Потребителско име"
+    },
+    "general_exchange_password": {
+        "message": "XChange Парола"
+    },
+    "general_exchange_password_masked": {
+        "message": "Паролата е маскирана"
+    },
+    "menu_delete_item_confirmation_dialog": {
+        "message": "Наистина ли искаш да изтриеш меню $1 ?"
     },
     "about_title": {
         "message": "За нас"
@@ -129,7 +168,7 @@
         "message": "Версия $1 $2"
     },
     "about_tos": {
-        "message": "Приставката е лицензирана под $1 и използва следните open-source технологии AngularJS, Bootstrap и Font Awesome."
+        "message": "Приставката е лицензирана под $1 и използва следните open-source технологии AngularJS, Angular Material Design и Font Awesome."
     },
     "about_buttons_info": {
         "message": "Получете помощ"
@@ -140,6 +179,9 @@
     "about_buttons_changelog": {
         "message": "Последни промени"
     },
+    "about_buttons_check_timesaved": {
+        "message": "Виж подробно"
+    },
     "about_timesaved": {
         "message": "Тази приставка спести $1 от вашият живот! $2"
     },
@@ -149,8 +191,17 @@
     "about_changelog": {
         "message": "Промени"
     },
+    "about_saved_time_header": {
+        "message": "Спестено време"
+    },
+    "about_saved_time_total": {
+        "message": "Общо:"
+    },
     "categories_sandboxes": {
         "message": "Пясъчници"
+    },
+    "categories_context_menu": {
+        "message": "Контекстно меню"
     },
     "categories_settings": {
         "message": "Опции"
@@ -181,5 +232,83 @@
     },
     "notifications_sandbox_message": {
         "message": "Натиснете тук, ако искате да го добавите към вашите пясъчници."
+    },
+    "toolbar_always_show": {
+        "message": "Показвай винаги"
+    },
+    "toolbar_auto_hide": {
+        "message": "Автоматично скриване"
+    },
+    "toolbar_hidden": {
+        "message": "Не показвай"
+    },
+    "welcome_page_header": {
+        "message": "Благодарим Ви, че инсталирахте Demandware with Ease!"
+    },
+    "welcome_page_paragraph": {
+        "message": "Честито! Вие направихте първата стъпка към подобрение и ускорение на работата си със Salesforce Commerce Cloud B2C"
+    },
+    "welcome_page_suggest": {
+        "message": "Докато все още имаме вашето внимание"
+    },
+    "welcome_page_features_button": {
+        "message": "Разгледайте всички функционалности"
+    },
+    "update_page_title": {
+        "message": "Версия $1 е тук!"
+    },
+    "update_page_whats_new": {
+        "message": "Какво ново ?"
+    },
+    "update_page_new_version_title": {
+        "message": "Какво ново във $1 ?"
+    },
+    "update_page_version_title": {
+        "message": "Версия $1"
+    },
+    "update_page_bugs_fixed_title": {
+        "message": "Оправени бъгове:"
+    },
+    "update_page_planned_features_title": {
+        "message": "Следващата версия ще включва:"
+    },
+    "update_page_about_button": {
+        "message": "Научете повече"
+    },
+    "autoLogin": {
+        "message": "Атоматична аутентикация в Business Manager"
+    },
+    "autoformatJson": {
+        "message": "Форматиране на JSON"
+    },
+    "autoformatHTML": {
+        "message": "Форматиране на HTML"
+    },
+    "invalidateCache": {
+        "message": "Invalidating cache"
+    },
+    "rebuildSearchIndexes": {
+        "message": "Rebuilding Search Indexes"
+    },
+    "manageCodeVersion": {
+        "message": "Managing Code Versions"
+    },
+    "hotkeys": {
+        "message": "Hotkeys"
+    },
+    "contextMenu": {
+        "message": "Контекстно меню"
+    },
+    "beautify": {
+        "message": "Окрасяване на Logs / Directories"
+    },
+    "uploadFile": {
+        "message": "Качване на файлове в WebDav"
+    },
+    "forms_messages_required": {
+        "message": "Задължително"
+    },
+    "forms_messages_optional": {
+        "message": "По желание"
     }
 }
