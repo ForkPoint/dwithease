@@ -1,5 +1,5 @@
 # Demandware with ease
----
+
 ### This repository contains only the localization files for the extension. Any contributions to the translations are always welcome and gladly appreciated!
 
 ---
@@ -10,7 +10,7 @@
 ### This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
 ---
 ## List of functionalities
----
+
 ## Options Page
 #### Store your sandboxes
     You can store all of your sandbox instances, and use individual options for each of them.
