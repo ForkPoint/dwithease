@@ -15,13 +15,13 @@
         "message": " ore "
     },
     "options_labels_minute": {
-        "message": " minuta "
+        "message": " minuti "
     },
     "options_labels_minutes": {
         "message": " minuto "
     },
     "options_labels_seconds": {
-        "message": " sekondi "
+        "message": " secondi "
     },
     "options_labels_and": {
         "message": " e "
@@ -30,10 +30,10 @@
         "message": "Nuovo"
     },
     "popup_buttons_add": {
-        "message": "Aggiunge la configurazione per sabbiere"
+        "message": "Aggiungi configurazione per sandbox"
     },
     "sandbox_title": {
-        "message": "Tuoi sabbiere"
+        "message": "Tue sandbox"
     },
     "sandbox_userName": {
         "message": "Nome utente"
@@ -54,22 +54,22 @@
         "message": "Importa impostazioni"
     },
     "sandbox_buttons_newsandbox": {
-        "message": "Nuova sabbiera"
+        "message": "Nuova sandbox"
     },
     "sandbox_buttons_delete_dialog": {
-        "message": "Davvero vuole eliminare(cancellare) la sabbiera $1 ?"
+        "message": "Davvero vuole eliminare(cancellare) la sandbox $1 ?"
     },
     "sandbox_buttons_delete_confirm": {
         "message": "Si"
     },
     "sandbox_buttons_delete_cancel": {
-        "message": "Rifiuto"
+        "message": "Annulla"
     },
     "sandbox_buttons_open": {
         "message": "Apri"
     },
     "sandbox_buttons_edit": {
-        "message": "Editare"
+        "message": "Modifica"
     },
     "sandbox_buttons_visible": {
         "message": "Visibile"
@@ -78,7 +78,7 @@
         "message": "Cancellare"
     },
     "sandbox_buttons_save": {
-        "message": "Mantenere"
+        "message": "Salva"
     },
     "sandbox_buttons_ungroup": {
         "message": "Separa"
@@ -93,7 +93,7 @@
         "message": "Esportazione"
     },
     "sandbox_form_sbinfo": {
-        "message": "Informazione per sabbiere"
+        "message": "Informazione per sandbox"
     },
     "page_context_menu_title": {
         "message": "Context Menu"
@@ -111,7 +111,7 @@
         "message": "BM Toolbar"
     },
     "general_colorlogs": {
-        "message": "Тronchi colorati"
+        "message": "Log colorati"
     },
     "general_scrolllogtobottom": {
         "message": "Scroll Log Files To Bottom"
@@ -141,7 +141,7 @@
         "message": "Do you really want to delete menu $1 ?"
     },
     "about_title": {
-        "message": "Per noi"
+        "message": "Su di noi"
     },
     "about_product_description": {
         "message": "Plugin che fa business manager, un posto fantastico! Godetevi la facilità con Demandware."
@@ -168,10 +168,10 @@
         "message": "Questo plugin risparmiare $1 della vostra vita! $2"
     },
     "about_author": {
-        "message": "Creato di"
+        "message": "Creato da"
     },
     "about_changelog": {
-        "message": "Combia"
+        "message": "Changelog"
     },
     "about_saved_time_header": {
         "message": "Tempo risparmiato"
@@ -180,7 +180,7 @@
         "message": "Totale:"
     },
     "categories_sandboxes": {
-        "message": "Sabbiere"
+        "message": "sandbox"
     },
     "categories_context_menu": {
         "message": "Context Menu"
@@ -189,7 +189,7 @@
         "message": "Opzioni"
     },
     "categories_about": {
-        "message": "Per noi"
+        "message": "Su di noi"
     },
     "notifications_update_title": {
         "message": "Ha ricevuto un nuovo aggiornamento!"
@@ -213,7 +213,7 @@
         "message": "Stai zitto!"
     },
     "notifications_sandbox_message": {
-        "message": "Clicca qui se vuoi aggiungere ai tuoi sabbiere."
+        "message": "Clicca qui se vuoi aggiungere ai tuoi sandbox."
     },
     "toolbar_always_show": {
         "message": "Always show"
@@ -291,6 +291,6 @@
         "message": "Obbligatorio"
     },
     "forms_messages_optional": {
-        "message": "Desiderio"
+        "message": "Opzionale"
     }
 }
