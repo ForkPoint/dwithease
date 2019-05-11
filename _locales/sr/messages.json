@@ -8,9 +8,6 @@
     "appShortName": {
         "message": "DWithEase"
     },
-    "options_PageTitle": {
-        "message": "Подешавања"
-    },
     "options_labels_hour": {
         "message": " сати "
     },
@@ -32,6 +29,9 @@
     "popup_buttons_add": {
         "message": "Додајте нову конфигурацију за инстанцу"
     },
+    "popup_tooltip_context_menu": {
+        "message": "Context Menu"
+    },
     "sandbox_title": {
         "message": "Ваше инстанце"
     },
@@ -40,6 +40,9 @@
     },
     "sandbox_domain": {
         "message": "Домен"
+    },
+    "sandbox_alias": {
+        "message": "Alias"
     },
     "sandbox_keepSession": {
         "message": "Одржавај сесију"
@@ -50,7 +53,7 @@
     "sandbox_features_automaticlogin": {
         "message": "Аутоматска пријава"
     },
-    "sandbox_importsettings": {
+    "sandbox_importsandboxes": {
         "message": "Подешавање увоза"
     },
     "sandbox_buttons_newsandbox": {
@@ -61,6 +64,12 @@
     },
     "sandbox_buttons_delete_confirm": {
         "message": "Да"
+    },
+    "sandbox_buttons_ungroup_dialog_line1": {
+        "message": "Do you really want to ungroup all $1 sandbox configurations?"
+    },
+    "sandbox_buttons_ungroup_dialog_line2": {
+        "message": "Sandbox configurations assigned to the group will be moved to the Uncategorized group."
     },
     "sandbox_buttons_delete_cancel": {
         "message": "Откажи"
@@ -74,6 +83,9 @@
     "sandbox_buttons_visible": {
         "message": "Видљив"
     },
+    "sandbox_buttons_copy": {
+        "message": "Copy"
+    },
     "sandbox_buttons_delete": {
         "message": "Обриши"
     },
@@ -85,9 +97,6 @@
     },
     "sandbox_buttons_import": {
         "message": "Увези"
-    },
-    "sandbox_buttons_import_overwrite": {
-        "message": "Прегази претходна подешавања"
     },
     "sandbox_buttons_export": {
         "message": "Извези"
@@ -101,44 +110,155 @@
     "page_context_menu_description": {
         "message": "You can configure the URLs that you want to use in your customized browser context menu as shortcuts. The context menu can be accessed by right clicking inside a saved sandbox browser tab. Rearange positions with drag and drop, or add new items to the context menu."
     },
-    "general_title": {
+    "settings_title": {
         "message": "Подешавања"
     },
-    "general_notifications": {
+    "settings_general_header" : {
+        "message": "General"
+    },
+    "settings_webdav_header" : {
+        "message": "WebDav"
+    },
+    "settings_redirects_header" : {
+        "message": "Redirects"
+    },
+    "settings_xchange_header" : {
+        "message": "XChange"
+    },
+    "settings_general_notifications": {
         "message": "Обавештења"
     },
-    "show_bm_toolbar": {
+    "settings_general_show_bm_toolbar": {
         "message": "BM Toolbar"
     },
-    "general_colorlogs": {
-        "message": "Color Logs"
+    "settings_general_theme": {
+        "message": "Theme"
     },
-    "general_scrolllogtobottom": {
-        "message": "Scroll Log Files To Bottom"
+    "settings_webdav_scrolllogtobottom": {
+        "message": "Scroll .log files to bottom when opened"
     },
-    "general_trimlogs": {
-        "message": "Trim Log Files"
+    "settings_webdav_trimlogs": {
+        "message": "Trim .log files"
     },
-    "general_beautifylogs": {
-        "message": "Beautify Log Files"
+    "settings_webdav_trimlogslineslimit": {
+        "message": "Number of lines to trim"
     },
-    "general_exchange_autologin": {
+    "settings_webdav_beautifylogs": {
+        "message": "Beautify .log files"
+    },
+    "settings_webdav_show_timer": {
+        "message": "Show timer and auto refresh toolbar"
+    },
+    "settings_webdav_units_second" : {
+        "message": "sec"
+    },
+    "settings_xchange_autologin": {
         "message": "Automatically login in XChange"
     },
-    "general_exchange_keepsessionactive": {
-        "message": "Keep XChange Session Alive"
+    "settings_xchange_keepsessionactive": {
+        "message": "Keep XChange session alive"
     },
-    "general_exchange_username": {
+    "settings_xchange_username": {
         "message": "XChange Username"
     },
-    "general_exchange_password": {
+    "settings_xchange_password": {
         "message": "XChange Password"
     },
-    "general_exchange_password_masked": {
-        "message": "The password is masked"
+    "settings_xchange_password_masked": {
+        "message": "* The password is masked"
+    },
+    "settings_redirects_auto_redirect_on_site_change" : {
+        "message": "Auto redirect to last page on site change"
+    },
+    "settings_redirects_auto_redirect_ask_before_redirect" : {
+        "message": "Ask before redirection"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Do you really want to delete menu $1 ?"
+    },
+    "settings_webdav_recent_files_period" : {
+        "message": "Recent files period"
+    },
+    "settings_webdav_auto_refresh_log" : {
+        "message": "Auto refresh log directory"
+    },
+    "settings_webdav_auto_refresh_log_period" : {
+        "message": "Refresh log directory period"
+    },
+    "settings_webdav_show_notifications_on_watch" : {
+        "message": "Show notifications on watch"
+    },
+    "settings_webdav_customize_tags" : {
+        "message": "Customize tags"
+    },
+    "redirects_title": {
+        "message": "Site Change Redirects"
+    },
+    "redirects_description": {
+        "message": "Here you can exclude specific Business Manager Actions to prevent triggering of automatic redirect, when the site is changed.<br>For included pages you will be automatically redirected even if 'Ask before redirection' option is enabled."
+    },
+    "redirects_exclude_title": {
+        "message": "Excluded BM Actions"
+    },
+    "redirects_included_title": {
+        "message": "Included BM Actions"
+    },
+    "redirects_url_caption": {
+        "message": "Action"
+    },
+    "redirects_new_url_action": {
+        "message": "e.g. Controller-Function"
+    },
+    "redirect_delete_item_confirmation_dialog": {
+        "message": "Do you really want to delete Action $1 ?"
+    },
+    "tags_title" : {
+        "message": "Tags"
+    },
+    "tags_description" : {
+        "message": "Tags allows quick filtering of WebDav files in directory. If file matches specific tag, it is displayed in tags column. The built-in tags use specific characteristics such as time, size, etc. Custom tags are using RegEx to match the filename. To filter by tag hover TAGS header and select desired tag. In the list are shown only tags which match at least one file."
+    },
+    "tags_title_system" : {
+        "message": "System tags"
+    },
+    "tags_description_system" : {
+        "message": "Built-in tags which will be displayed in WebDav folders. All system tags will be shown in the bottom in the tags list."
+    },
+    "tags_title_custom" : {
+        "message": "Custom tags"
+    },
+    "tags_description_custom" : {
+        "message": "Custom tags to be displayed in WebDav folders. Any of the custom tags will appear if the tag's RegEx pattern matches part of the file name."
+    },
+    "tag_config_new" : {
+        "message": "Add new tag"
+    },
+    "tag_config_edit" : {
+        "message": "Edit tag"
+    },
+    "tag_config_name" : {
+        "message": "Name:"
+    },
+    "tag_config_pattern" : {
+        "message": "Pattern:"
+    },
+    "tag_config_background" : {
+        "message": "Background:"
+    },
+    "tag_config_color" : {
+        "message": "Color:"
+    },
+    "tag_config_visible" : {
+        "message": "Visible:"
+    },
+    "tag_config_save" : {
+        "message": "Save"
+    },
+    "tag_config_discard" : {
+        "message": "Discard"
+    },
+    "tags_add_new" : {
+        "message": "Add new tag"
     },
     "about_title": {
         "message": "О нама"
@@ -182,11 +302,17 @@
     "categories_sandboxes": {
         "message": "Инстанце"
     },
+    "categories_settings": {
+        "message": "Могућности"
+    },
     "categories_context_menu": {
         "message": "Context Menu"
     },
-    "categories_settings": {
-        "message": "Могућности"
+    "categories_redirects": {
+        "message": "Redirects"
+    },
+    "categories_tags": {
+        "message": "Tags"
     },
     "categories_about": {
         "message": "О пројекту"
@@ -223,6 +349,21 @@
     },
     "toolbar_hidden": {
         "message": "Don't show"
+    },
+    "timer_hide": {
+        "message" : "Nothing"
+    },
+    "timer_show_refresh": {
+        "message" : "Only auto refresh (pausable)"
+    },
+    "timer_show_timer" : {
+        "message" : "Only timer"
+    },
+    "timer_show_timer_and_toggle" : {
+        "message" : "Timer (toggle for auto refresh)"
+    },
+    "timer_show_refresh_and_toggle" : {
+        "message" : "Auto refresh (toggle for timer)"
     },
     "welcome_page_header": {
         "message": "Thank you for installing Demandware with Ease!"
@@ -292,5 +433,29 @@
     },
     "forms_messages_optional": {
         "message": "По жељи"
+    },
+    "button_visible" : {
+        "message": "Visibility"
+    },
+    "button_edit" : {
+        "message": "Edit"
+    },
+    "button_delete" : {
+        "message": "Delete"
+    },
+    "button_save" : {
+        "message": "Save"
+    },
+    "button_background_color" : {
+        "message": "Background Color"
+    },
+    "button_foreground_color" : {
+        "message": "Foreground Color"
+    },
+    "button_add_redirect_exclude" : {
+        "message": "Add Exclude Action"
+    },
+    "button_add_redirect_include" : {
+        "message": "Add Include Action"
     }
 }

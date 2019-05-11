@@ -1,16 +1,22 @@
 # Demandware with ease
+## Use Salesforce Commerce Cloud B2C with ease!
 
-### This repository contains only the localization files for the extension. Any contributions to the translations are always welcome and gladly appreciated!
+## Install
 
----
-### Use Salesforce Commerce Cloud B2C with ease!
----
-### An extension which makes Salesforce Commerce Cloud B2C a happy place!
----
+[DWithEase For Chrome](https://chrome.google.com/webstore/detail/demandware-with-ease/ffhabonelknmejmdnekedmijlhebpcio)
+
+
+## About this repo
+### This is the official public repository for Demandware with Ease.
+### It contains only the localization files for the extension. Any contributions to the translations are always welcome and gladly appreciated!
+
+
+## Extension recommended usage
+
 ### This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
----
-## List of functionalities
 
+
+# List of functionalities
 ## Options Page
 #### Store your sandboxes
     You can store all of your sandbox instances, and use individual options for each of them.
@@ -40,11 +46,9 @@
     Automatically login in XChange - turn on/off, will auto login if credentials are present
     Keep XChange session alive - makes the XChange session never expire
 
-#### Select Default Site
-    Specifies a site to be selected upon log-in, to disable this function, leave blank
-
 #### Import / Export
-    Import & Export your sandbox configurations in JSON config file.Passwords are not exported.
+    Import & Export your sandbox configurations in JSON config file,
+    if you do not want to loose your settings.Passwords are not exported.
 
 ## Menu Page
 #### Context menu
@@ -68,7 +72,11 @@
 
 ## Extension Popup
 #### Smart Shortcuts
-    Gain faster access to most popular pages or quickly edit your sandbox.
+    Quick Access to the following functionalities:
+    -Your Sandboxes List (Open BM or Edit Configuration)
+    -Use your configured context menu for each configuration
+    -Link to extension options page
+    -Link to SFCC Documentation / XChange
 
 ## WebDav Pages
 #### Enhanced logs

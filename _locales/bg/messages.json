@@ -8,9 +8,6 @@
     "appShortName": {
         "message": "DWithEase"
     },
-    "options_PageTitle": {
-        "message": "Options"
-    },
     "options_labels_hour": {
         "message": " часа "
     },
@@ -56,8 +53,8 @@
     "sandbox_features_automaticlogin": {
         "message": "Влизане в БМ автоматично"
     },
-    "sandbox_importsettings": {
-        "message": "Импорт настройки"
+    "sandbox_importsandboxes": {
+        "message": "Импорт на конфигурации"
     },
     "sandbox_buttons_newsandbox": {
         "message": "Нов пясъчник"
@@ -104,9 +101,6 @@
     "sandbox_buttons_import": {
         "message": "Импорт"
     },
-    "sandbox_buttons_import_overwrite": {
-        "message": "Презапиши предишните настройки"
-    },
     "sandbox_buttons_export": {
         "message": "Експорт"
     },
@@ -119,44 +113,155 @@
     "page_context_menu_description": {
         "message": "Можете да конфигурирате вашите любими URLs, които в последствие да използвате в контекстното меню за бърз и лесен достъп. Контекстното меню може да се достъпи, като кликнете с десен бутон в контекста/таба на запазена конфигурация. Можете да размерствате позицията на елементите с drag & drop, както и да добавите нова конфигурация в контекстното меню."
     },
-    "general_title": {
+    "settings_title": {
         "message": "Настройки"
     },
-    "general_notifications": {
+    "settings_general_header" : {
+        "message": "Общи"
+    },
+    "settings_webdav_header" : {
+        "message": "WebDav"
+    },
+    "settings_redirects_header" : {
+        "message": "Пренасочвания"
+    },
+    "settings_xchange_header" : {
+        "message": "XChange"
+    },
+    "settings_general_notifications": {
         "message": "Известия"
     },
-    "show_bm_toolbar": {
+    "settings_general_show_bm_toolbar": {
         "message": "BM Toolbar"
     },
-    "general_colorlogs": {
-        "message": "Цветни логове"
+    "settings_general_theme": {
+        "message": "Тема"
     },
-    "general_scrolllogtobottom": {
+    "settings_webdav_scrolllogtobottom": {
         "message": "Автоматично приплъзгване до края на лога"
     },
-    "general_trimlogs": {
-        "message": "Изрязване на Log файловете"
+    "settings_webdav_trimlogs": {
+        "message": "Изрязване на .log файловете"
     },
-    "general_beautifylogs": {
-        "message": "Окрасени Log файлове"
+    "settings_webdav_trimlogslineslimit": {
+        "message": "Брой редове да бъдат изрязани"
     },
-    "general_exchange_autologin": {
+    "settings_webdav_beautifylogs": {
+        "message": "Окрасени .log файлове"
+    },
+    "settings_webdav_show_timer": {
+        "message": "Показвай таймер и автоматично презареждане"
+    },
+    "settings_webdav_units_second" : {
+        "message": "sec"
+    },
+    "settings_xchange_autologin": {
         "message": "Автоматична аутентикация в XChange"
     },
-    "general_exchange_keepsessionactive": {
+    "settings_xchange_keepsessionactive": {
         "message": "Запази XChange сесията жива"
     },
-    "general_exchange_username": {
+    "settings_xchange_username": {
         "message": "XChange Потребителско име"
     },
-    "general_exchange_password": {
+    "settings_xchange_password": {
         "message": "XChange Парола"
     },
-    "general_exchange_password_masked": {
-        "message": "Паролата е маскирана"
+    "settings_xchange_password_masked": {
+        "message": "* Паролата е маскирана"
+    },
+    "settings_redirects_auto_redirect_on_site_change" : {
+        "message": "Автоматично пренасочване към последната страница, при смяна на сайта"
+    },
+    "settings_redirects_auto_redirect_ask_before_redirect" : {
+        "message": "Попитай преди пренасочване"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Наистина ли искаш да изтриеш меню $1 ?"
+    },
+    "settings_webdav_recent_files_period" : {
+        "message": "Оцветени скоро променени файлове - период"
+    },
+    "settings_webdav_auto_refresh_log" : {
+        "message": "Автоматично презареждане на директорията"
+    },
+    "settings_webdav_auto_refresh_log_period" : {
+        "message": "Автоматично презареждане на директорията - период"
+    },
+    "settings_webdav_show_notifications_on_watch" : {
+        "message": "Показвай нотификаций при watch"
+    },
+    "settings_webdav_customize_tags" : {
+        "message": "Настройки на таговете"
+    },
+    "redirects_title": {
+        "message": "Пренасочване при смяна на сайта"
+    },
+    "redirects_description": {
+        "message": "Тук можете да изключите специфични Business Manager действия, за да предотвратите автоматични пренасочвания, когато сайта бъде сменен.<br>За всички включени страници, ще бъдете автоматично пренасочени дори и ако, 'Питай преди пренасочване' опцията е включена."
+    },
+    "redirects_exclude_title": {
+        "message": "Изключени BM действия"
+    },
+    "redirects_included_title": {
+        "message": "Включени BM действия"
+    },
+    "redirects_url_caption": {
+        "message": "Действие"
+    },
+    "redirects_new_url_action": {
+        "message": "пример: Controller-Function"
+    },
+    "redirect_delete_item_confirmation_dialog": {
+        "message": "Наистина ли искате да изтриете действие $1 ?"
+    },
+    "tags_title" : {
+        "message": "Тагове"
+    },
+    "tags_description" : {
+        "message": "Таговете ви позволяват да филтрирате файлове в различните WebDav директории. Ако името на файл съвпадне със специфичен таг, ще бъде показано в колоната с тагове. Вградените тагове изолзват специфични характеристики като време, размер, т.н. Персоналните тагове използват RegEx за да съвпаднат с името на файла. За да филтрирате по таг, посочете върху бутона 'Тагове'. В списъка ще видите тагове, които са съвпаднали с поне един файл."
+    },
+    "tags_title_system" : {
+        "message": "Системни тагове"
+    },
+    "tags_description_system" : {
+        "message": "Вградени тагове, които ще бъдат видими в WebDav директориите. Всички системни тагове ще бъдат показани най-отдолу в списъка с тагове."
+    },
+    "tags_title_custom" : {
+        "message": "Персонални тагове"
+    },
+    "tags_description_custom" : {
+        "message": "Персонални тагове, които ще бъдат видими в WebDav директориите. Всеки един от тези тагове ще бъде видим, ако RegEx-а съвпадне с името на файла."
+    },
+    "tag_config_new" : {
+        "message": "Добави нов таг"
+    },
+    "tag_config_edit" : {
+        "message": "Промени таг"
+    },
+    "tag_config_name" : {
+        "message": "Име:"
+    },
+    "tag_config_pattern" : {
+        "message": "Pattern:"
+    },
+    "tag_config_background" : {
+        "message": "Фон:"
+    },
+    "tag_config_color" : {
+        "message": "Цвят на буквите:"
+    },
+    "tag_config_visible" : {
+        "message": "Видим:"
+    },
+    "tag_config_save" : {
+        "message": "Запази"
+    },
+    "tag_config_discard" : {
+        "message": "Отхвърли"
+    },
+    "tags_add_new" : {
+        "message": "Добави нов таг"
     },
     "about_title": {
         "message": "За нас"
@@ -200,11 +305,17 @@
     "categories_sandboxes": {
         "message": "Пясъчници"
     },
+    "categories_settings": {
+        "message": "Настройки"
+    },
     "categories_context_menu": {
         "message": "Контекстно меню"
     },
-    "categories_settings": {
-        "message": "Опции"
+    "categories_redirects": {
+        "message": "Пренасочвания"
+    },
+    "categories_tags": {
+        "message": "Тагове"
     },
     "categories_about": {
         "message": "За нас"
@@ -241,6 +352,21 @@
     },
     "toolbar_hidden": {
         "message": "Не показвай"
+    },
+    "timer_hide": {
+        "message" : "Изключен таймер"
+    },
+    "timer_show_refresh": {
+        "message" : "Само презареждай (Натисни за пауза)"
+    },
+    "timer_show_timer" : {
+        "message" : "Само таймер"
+    },
+    "timer_show_timer_and_toggle" : {
+        "message" : "Таймер (Натисни за смяна на автоматично презареждане)"
+    },
+    "timer_show_refresh_and_toggle" : {
+        "message" : "Автоматично презареждане (Натисни за смяна на таймер)"
     },
     "welcome_page_header": {
         "message": "Благодарим Ви, че инсталирахте Demandware with Ease!"
@@ -310,5 +436,29 @@
     },
     "forms_messages_optional": {
         "message": "По желание"
+    },
+    "button_visible" : {
+        "message": "Видимост"
+    },
+    "button_edit" : {
+        "message": "Редактирай"
+    },
+    "button_delete" : {
+        "message": "Изтрий"
+    },
+    "button_save" : {
+        "message": "Запази"
+    },
+    "button_background_color" : {
+        "message": "Цвят на фона"
+    },
+    "button_foreground_color" : {
+        "message": "Цвят на текста"
+    },
+    "button_add_redirect_exclude" : {
+        "message": "Добави изключващо действие"
+    },
+    "button_add_redirect_include" : {
+        "message": "Добави включващо действие"
     }
 }
