@@ -30,7 +30,7 @@
         "message": "Ajouter une configuration d'instance"
     },
     "popup_tooltip_context_menu": {
-        "message": "Context Menu"
+        "message": "Menu contextuel"
     },
     "sandbox_title": {
         "message": "Vos instances"
@@ -69,7 +69,7 @@
         "message": "Voulez-vous dégrouper toutes les configurations d'instances de $1 ?"
     },
     "sandbox_buttons_ungroup_dialog_line2": {
-        "message": "Les configurations d'instances assignées au groupes seront déplacées vers le groupe Uncategorized."
+        "message": "Les configurations d'instances assignées aux groupes seront déplacées vers le groupe Uncategorized."
     },
     "sandbox_buttons_delete_confirm": {
         "message": "Oui"
@@ -111,19 +111,19 @@
         "message": "Menu contextuel"
     },
     "page_context_menu_description": {
-        "message": "You can configure the URLs that you want to use in your customized browser context menu as shortcuts. The context menu can be accessed by right clicking inside a saved sandbox browser tab. Rearange positions with drag and drop, or add new items to the context menu."
+        "message": "Vous pouvez configurer les URLs que vous voulez utiliser en tant que raccourcis dans le menu contextuel personnalisé de votre navigateur. Ce menu contextuel peut être ouvert par un clic droit à l'intérieur d'une page d'instance sauvegardée. Réarrangez l'ordre avec un glisser-déposer, ou ajouter des nouveaux éléments dans le menu contextuel."
     },
     "settings_title": {
         "message": "Réglages"
     },
     "settings_general_header" : {
-        "message": "General"
+        "message": "Général"
     },
     "settings_webdav_header" : {
         "message": "WebDav"
     },
     "settings_redirects_header" : {
-        "message": "Redirects"
+        "message": "Redirections"
     },
     "settings_xchange_header" : {
         "message": "XChange"
@@ -132,10 +132,10 @@
         "message": "Notifications"
     },
     "settings_general_show_bm_toolbar": {
-        "message": "BM Toolbar"
+        "message": "Barre d'outils BM"
     },
     "settings_general_theme": {
-        "message": "Theme"
+        "message": "Thème"
     },
     "settings_webdav_scrolllogtobottom": {
         "message": "Se positionner à la fin du log"
@@ -144,19 +144,19 @@
         "message": "Raccourcir les logs"
     },
     "settings_webdav_trimlogslineslimit": {
-        "message": "Number of lines to trim"
+        "message": "Nombre de ligne à trim"
     },
     "settings_webdav_beautifylogs": {
-        "message": "Améliorer les logs"
+        "message": "Styliser les logs"
     },
     "settings_webdav_show_timer": {
-        "message": "Show timer and auto refresh toolbar"
+        "message": "Afficher le minuteur et la barre d'actualisation"
     },
     "settings_webdav_units_second" : {
         "message": "sec"
     },
     "settings_xchange_autologin": {
-        "message": "Se logger automatiquement dans XChange"
+        "message": "Se connecter automatiquement dans XChange"
     },
     "settings_xchange_keepsessionactive": {
         "message": "Maintenir les sessions XChange"
@@ -171,103 +171,103 @@
         "message": "* Le mot de passe est masqué"
     },
     "settings_redirects_auto_redirect_on_site_change" : {
-        "message": "Auto redirect to last page on site change"
+        "message": "Redirection automatique vers la page précédente lors d'un changement de site"
     },
     "settings_redirects_auto_redirect_ask_before_redirect" : {
-        "message": "Ask before redirection"
+        "message": "Demander avant de rediriger"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Voulez-vous vraiment supprimer le menu $1 ?"
     },
     "settings_webdav_recent_files_period" : {
-        "message": "Recent files period"
+        "message": "Durée pour laquelle un fichier est considéré comme récent"
     },
     "settings_webdav_auto_refresh_log" : {
-        "message": "Auto refresh log directory"
+        "message": "Actualiser automatiquement le repertoire des logs"
     },
     "settings_webdav_auto_refresh_log_period" : {
-        "message": "Refresh log directory period"
+        "message": "Interval d'actualisation des logs"
     },
     "settings_webdav_show_notifications_on_watch" : {
         "message": "Show notifications on watch"
     },
     "settings_webdav_customize_tags" : {
-        "message": "Customize tags"
+        "message": "Personnaliser les labels"
     },
     "redirects_title": {
-        "message": "Site Change Redirects"
+        "message": "Redirection lors d'un changement de site"
     },
     "redirects_description": {
-        "message": "Here you can exclude specific Business Manager Actions to prevent triggering of automatic redirect, when the site is changed.<br>For included pages you will be automatically redirected even if 'Ask before redirection' option is enabled."
+        "message": "Ici, vous pouvez exclure des actions Business Manager spécifiques pour empêcher la redirection automatique lors d'un changement de site.<br>Pour les pages incluses, vous serez automatiquement redirigé même si l'option 'Demander avant de rediriger' est active."
     },
     "redirects_exclude_title": {
-        "message": "Excluded BM Actions"
+        "message": "Actions BM exclues"
     },
     "redirects_included_title": {
-        "message": "Included BM Actions"
+        "message": "Actions BM incluses"
     },
     "redirects_url_caption": {
         "message": "Action"
     },
     "redirects_new_url_action": {
-        "message": "e.g. Controller-Function"
+        "message": "ex: Controller-Function"
     },
     "redirect_delete_item_confirmation_dialog": {
-        "message": "Do you really want to delete Action $1 ?"
+        "message": "Voulez-vous vraiment supprimer l'Action $1 ?"
     },
     "tags_title" : {
-        "message": "Tags"
+        "message": "Labels"
     },
     "tags_description" : {
-        "message": "Tags allows quick filtering of WebDav files in directory. If file matches specific tag, it is displayed in tags column. The built-in tags use specific characteristics such as time, size, etc. Custom tags are using RegEx to match the filename. To filter by tag hover TAGS header and select desired tag. In the list are shown only tags which match at least one file."
+        "message": "Les labels permettent de filtrer rapidement les fichers du webdav dans un répertoire. Si le fichier correspond à un tag spécifique, il est affiché dans la colonne des labels. Les labels prédéfinits utilisent des caractéristique spécifiques tels que la date de modification, la taille, etc. Les labels personnalisés utilisent des expressions régulière pour correspondre aux noms des fichiers. Pour filtrer en fonction des labels, survolez l'entête labels et sélectionnez le label désiré. La liste n'affiche que les labels qui possèdent au moins une correspondance."
     },
     "tags_title_system" : {
-        "message": "System tags"
+        "message": "Labels système"
     },
     "tags_description_system" : {
-        "message": "Built-in tags which will be displayed in WebDav folders. All system tags will be shown in the bottom in the tags list."
+        "message": "Labels prédéfinits à afficher dans le WebDav. Tous les labels système seront affichés en bas de la liste des labels."
     },
     "tags_title_custom" : {
-        "message": "Custom tags"
+        "message": "Labels personnalisés"
     },
     "tags_description_custom" : {
-        "message": "Custom tags to be displayed in WebDav folders. Any of the custom tags will appear if the tag's RegEx pattern matches part of the file name."
+        "message": "Labels personnalisés à afficher dans le WebDav. Tout label personnalisé apparaîtra lorsque l'expression régulière correspondra à une partie d'un nom de fichier."
     },
     "tag_config_new" : {
-        "message": "Add new tag"
+        "message": "Ajouter un nouveau label"
     },
     "tag_config_edit" : {
-        "message": "Edit tag"
+        "message": "Modifier un label"
     },
     "tag_config_name" : {
-        "message": "Name:"
+        "message": "Nom:"
     },
     "tag_config_pattern" : {
-        "message": "Pattern:"
+        "message": "Expression régulière:"
     },
     "tag_config_background" : {
-        "message": "Background:"
+        "message": "Couleur de fond:"
     },
     "tag_config_color" : {
-        "message": "Color:"
+        "message": "Couleur:"
     },
     "tag_config_visible" : {
         "message": "Visible:"
     },
     "tag_config_save" : {
-        "message": "Save"
+        "message": "Sauvegarder"
     },
     "tag_config_discard" : {
-        "message": "Discard"
+        "message": "Annuler les changements"
     },
     "tags_add_new" : {
-        "message": "Add new tag"
+        "message": "Ajouter un nouveau label"
     },
     "about_title": {
         "message": "À propos de nous"
     },
     "about_product_description": {
-        "message": "Une extension qui fait du Business Manager un endroit plus cosy ! Profitez de Demandware avec facilité."
+        "message": "Une extension qui fait du Business Manager un endroit plus cosy ! Profitez de Demandware avec simplicité."
     },
     "about_product_version": {
         "message": "Version $1 $2"
@@ -312,10 +312,10 @@
         "message": "Menu contextuel"
     },
     "categories_redirects": {
-        "message": "Redirects"
+        "message": "Redirections"
     },
     "categories_tags": {
-        "message": "Tags"
+        "message": "Labels"
     },
     "categories_about": {
         "message": "À propos de nous"
@@ -342,7 +342,7 @@
         "message": "Tais-toi !"
     },
     "notifications_sandbox_message": {
-        "message": "Cliquez ici si pour l'ajouter à vos instances."
+        "message": "Cliquez ici pour l'ajouter à vos instances."
     },
     "toolbar_always_show": {
         "message": "Toujours afficher"
@@ -354,19 +354,19 @@
         "message": "Ne pas afficher"
     },
     "timer_hide": {
-        "message" : "Nothing"
+        "message" : "Masquer"
     },
     "timer_show_refresh": {
-        "message" : "Only auto refresh (pausable)"
+        "message" : "Uniquement l'actualisation automatique (possibilité de mise en pause)"
     },
     "timer_show_timer" : {
-        "message" : "Only timer"
+        "message" : "Uniquement le minuteur"
     },
     "timer_show_timer_and_toggle" : {
-        "message" : "Timer (toggle for auto refresh)"
+        "message" : "Minuteur (Passer à l'actualisation automatique)"
     },
     "timer_show_refresh_and_toggle" : {
-        "message" : "Auto refresh (toggle for timer)"
+        "message" : "Actualisation automatique (Passer au minuteur)"
     },
     "welcome_page_header": {
         "message": "Merci d'avoir installé Demandware with Ease"
@@ -393,7 +393,7 @@
         "message": "Version $1"
     },
     "update_page_bugs_fixed_title": {
-        "message": "Bugs fixés :"
+        "message": "Bugs corrigés :"
     },
     "update_page_planned_features_title": {
         "message": "Les fonctionnalités à venir :"
@@ -405,19 +405,19 @@
         "message": "Se connecter automatiquement dans le Business Manager"
     },
     "autoformatJson": {
-        "message": "Formatting JSON"
+        "message": "Formatter le JSON"
     },
     "autoformatHTML": {
-        "message": "Formatting HTML"
+        "message": "Formatter le HTML"
     },
     "invalidateCache": {
-        "message": "Invalidating cache"
+        "message": "Invalider le cache"
     },
     "rebuildSearchIndexes": {
-        "message": "Rebuilding Search Indexes"
+        "message": "Reindexer les indexes de recherche"
     },
     "manageCodeVersion": {
-        "message": "Managing Code Versions"
+        "message": "Gerer les versions de code"
     },
     "hotkeys": {
         "message": "Raccourcis"
@@ -426,10 +426,10 @@
         "message": "Menu contextuel"
     },
     "beautify": {
-        "message": "Beautifying Logs / Directories"
+        "message": "Styliser les Logs / les Répertoires"
     },
     "uploadFile": {
-        "message": "Uploading files"
+        "message": "Fichiers en cours d'envoie"
     },
     "forms_messages_required": {
         "message": "Requis"
@@ -438,27 +438,27 @@
         "message": "Optionnel"
     },
     "button_visible" : {
-        "message": "Visibility"
+        "message": "Visibilité"
     },
     "button_edit" : {
-        "message": "Edit"
+        "message": "Modifier"
     },
     "button_delete" : {
-        "message": "Delete"
+        "message": "Supprimer"
     },
     "button_save" : {
-        "message": "Save"
+        "message": "Sauvegarder"
     },
     "button_background_color" : {
-        "message": "Background Color"
+        "message": "Couleur de fond"
     },
     "button_foreground_color" : {
-        "message": "Foreground Color"
+        "message": "Couleur"
     },
     "button_add_redirect_exclude" : {
-        "message": "Add Exclude Action"
+        "message": "Ajouter dans les règles d'exclusions"
     },
     "button_add_redirect_include" : {
-        "message": "Add Include Action"
+        "message": "Ajouter dans les règles d'inclusions"
     }
 }
