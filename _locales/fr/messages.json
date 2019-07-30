@@ -144,7 +144,7 @@
         "message": "Raccourcir les logs"
     },
     "settings_webdav_trimlogslineslimit": {
-        "message": "Nombre de ligne à trim"
+        "message": "Nombre de lignes à trim"
     },
     "settings_webdav_beautifylogs": {
         "message": "Styliser les logs"
