@@ -111,13 +111,16 @@
         "message": "Context Menu"
     },
     "page_context_menu_description": {
-        "message": "You can configure the URLs that you want to use in your customized browser context menu as shortcuts. The context menu can be accessed by right clicking inside a saved sandbox browser tab. Rearange positions with drag and drop, or add new items to the context menu."
+        "message": "You can configure the URLs that you want to use in your customized browser context menu as shortcuts. The context menu can be accessed by right-clicking inside a saved sandbox browser tab. Rearrange positions with drag and drop, or add new items to the context menu."
     },
     "settings_title": {
         "message": "Settings"
     },
     "settings_general_header" : {
         "message": "General"
+    },
+    "settings_popup_header" : {
+        "message": "Popup"
     },
     "settings_webdav_header" : {
         "message": "WebDav"
@@ -136,6 +139,15 @@
     },
     "settings_general_theme": {
         "message": "Theme"
+    },
+    "settings_popup_switch_grouping": {
+        "message": "Sandbox groups display mode"
+    },
+    "settings_popup_show_tabs_grouping": {
+        "message": "Tabs"
+    },
+    "settings_popup_show_list_grouping": {
+        "message": "List"
     },
     "settings_webdav_scrolllogtobottom": {
         "message": "Scroll .log files to bottom when opened"
@@ -198,7 +210,7 @@
         "message": "Site Change Redirects"
     },
     "redirects_description": {
-        "message": "Here you can exclude specific Business Manager Actions to prevent triggering of automatic redirect, when the site is changed.<br>For included pages you will be automatically redirected even if 'Ask before redirection' option is enabled."
+        "message": "Here you can exclude specific Business Manager Actions to prevent triggering of automatic redirect when the site is changed.<br>For included pages you will be automatically redirected even if 'Ask before redirection' option is enabled."
     },
     "redirects_exclude_title": {
         "message": "Excluded BM Actions"
@@ -219,7 +231,7 @@
         "message": "Tags"
     },
     "tags_description" : {
-        "message": "Tags allows quick filtering of WebDav files in directory. If file matches specific tag, it is displayed in tags column. The built-in tags use specific characteristics such as time, size, etc. Custom tags are using RegEx to match the filename. To filter by tag hover TAGS header and select desired tag. In the list are shown only tags which match at least one file."
+        "message": "Tags allows quick filtering of WebDav files in a directory. If a file matches a specific tag, it is displayed in the tags column. The built-in tags use specific characteristics such as time, size, etc. Custom tags are using RegEx to match the filename. To filter by tag hover TAGS header and select the desired tag. In the list are shown only tags which match at least one file."
     },
     "tags_title_system" : {
         "message": "System tags"

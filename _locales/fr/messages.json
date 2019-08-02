@@ -119,6 +119,9 @@
     "settings_general_header" : {
         "message": "Général"
     },
+    "settings_popup_header" : {
+        "message": "Popup"
+    },
     "settings_webdav_header" : {
         "message": "WebDav"
     },
@@ -136,6 +139,15 @@
     },
     "settings_general_theme": {
         "message": "Thème"
+    },
+    "settings_popup_switch_grouping": {
+        "message": "Sandbox groups display mode"
+    },
+    "settings_popup_show_tabs_grouping": {
+        "message": "Tabs"
+    },
+    "settings_popup_show_list_grouping": {
+        "message": "List"
     },
     "settings_webdav_scrolllogtobottom": {
         "message": "Se positionner à la fin du log"
