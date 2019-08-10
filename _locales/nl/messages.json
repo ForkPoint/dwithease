@@ -1,0 +1,476 @@
+{
+    "appName": {
+        "message": "Demandware With Ease"
+    },
+    "appDescription": {
+        "message": "Gebruik de Demandware Business Manager met gemak!"
+    },
+    "appShortName": {
+        "message": "DWithEase"
+    },
+    "options_labels_hour": {
+        "message": " uren "
+    },
+    "options_labels_minute": {
+        "message": " minuut "
+    },
+    "options_labels_minutes": {
+        "message": " minuten "
+    },
+    "options_labels_seconds": {
+        "message": " seconden "
+    },
+    "options_labels_and": {
+        "message": " en "
+    },
+    "popup_buttons_new": {
+        "message": "Nieuw"
+    },
+    "popup_buttons_add": {
+        "message": "Voeg Sandbox toe"
+    },
+    "popup_tooltip_context_menu": {
+        "message": "Context Menu"
+    },
+    "sandbox_title": {
+        "message": "Sandbox Configuraties"
+    },
+    "sandbox_userName": {
+        "message": "Gebruikersnaam"
+    },
+    "sandbox_domain": {
+        "message": "Domein"
+    },
+    "sandbox_alias": {
+        "message": "Alias"
+    },
+    "sandbox_keepSession": {
+        "message": "Hou de BM Sessies In Leven"
+    },
+    "sandbox_automaticLogin": {
+        "message": "Automatische login"
+    },
+    "sandbox_features_automaticlogin": {
+        "message": "Login automatisch in op de BM "
+    },
+    "sandbox_importsandboxes": {
+        "message": "Importeer Sandboxes"
+    },
+    "sandbox_buttons_newsandbox": {
+        "message": "Nieuwe Sandbox"
+    },
+    "sandbox_buttons_add_alias": {
+        "message": "Voeg alias toe"
+    },
+    "sandbox_buttons_delete_dialog": {
+        "message": "Ben je zeker dat je de sandbox configuratie $1 wil verwijderen?"
+    },
+    "sandbox_buttons_ungroup_dialog_line1": {
+        "message": "Ben je zeker dat je $1 sandbox configuraties wil degroeperen?"
+    },
+    "sandbox_buttons_ungroup_dialog_line2": {
+        "message": "Sandbox configuraties toegekend aan deze groep zullen verplaatst worden naar de Uncategorized groep."
+    },
+    "sandbox_buttons_delete_confirm": {
+        "message": "Ja"
+    },
+    "sandbox_buttons_delete_cancel": {
+        "message": "Annuleer"
+    },
+    "sandbox_buttons_open": {
+        "message": "Open"
+    },
+    "sandbox_buttons_edit": {
+        "message": "Wijzig"
+    },
+    "sandbox_buttons_visible": {
+        "message": "Zichtbaar in de extensie popup"
+    },
+    "sandbox_buttons_copy": {
+        "message": "Kopieer"
+    },
+    "sandbox_buttons_delete": {
+        "message": "Verwijder"
+    },
+    "sandbox_buttons_save": {
+        "message": "Opslaan"
+    },
+    "sandbox_buttons_ungroup": {
+        "message": "Degroeperen"
+    },
+    "sandbox_buttons_import": {
+        "message": "Importeer"
+    },
+    "sandbox_buttons_export": {
+        "message": "Exporteer"
+    },
+    "sandbox_form_sbinfo": {
+        "message": "Sandbox Configuratie"
+    },
+    "page_context_menu_title": {
+        "message": "Context Menu"
+    },
+    "page_context_menu_description": {
+        "message": "Je kan de URLs configureren die je wil gebruiken in het browser context menu als shortcuts. Het context menu kan je bereiken door rechts te klikken in een opgeslagen sandbox browser tab. Je kan de posities in het context menu veranderen, of nieuwe items er aan toe voegen."
+    },
+    "settings_title": {
+        "message": "Instellingen"
+    },
+    "settings_general_header" : {
+        "message": "Algemeen"
+    },
+    "settings_popup_header" : {
+        "message": "Popup"
+    },
+    "settings_webdav_header" : {
+        "message": "WebDav"
+    },
+    "settings_redirects_header" : {
+        "message": "Omleidingen"
+    },
+    "settings_xchange_header" : {
+        "message": "XChange"
+    },
+    "settings_general_notifications": {
+        "message": "Notificaties"
+    },
+    "settings_general_show_bm_toolbar": {
+        "message": "BM Toolbar"
+    },
+    "settings_general_theme": {
+        "message": "Thema"
+    },
+    "settings_popup_switch_grouping": {
+        "message": "Sandbox groepen weergave modus"
+    },
+    "settings_popup_show_tabs_grouping": {
+        "message": "Tabs"
+    },
+    "settings_popup_show_list_grouping": {
+        "message": "Lijst"
+    },
+    "settings_webdav_scrolllogtobottom": {
+        "message": "Scroll automatisch naar beneden in .log bestanden wanneer ze geopend worden."
+    },
+    "settings_webdav_trimlogs": {
+        "message": "Kort .log bestanden af"
+    },
+    "settings_webdav_trimlogslineslimit": {
+        "message": "Aantal lijnen voordat het bestand wordt afgekapt"
+    },
+    "settings_webdav_beautifylogs": {
+        "message": "Beautify .log bestanden"
+    },
+    "settings_webdav_show_timer": {
+        "message": "Toon een timer in de refresh toolbar."
+    },
+    "settings_webdav_units_second" : {
+        "message": "seconden"
+    },
+    "settings_xchange_autologin": {
+        "message": "Log automatisch in XChange in"
+    },
+    "settings_xchange_keepsessionactive": {
+        "message": "Hou de XChange sessie in leven"
+    },
+    "settings_xchange_username": {
+        "message": "XChange Gebruikersnaam"
+    },
+    "settings_xchange_password": {
+        "message": "XChange Wachtwoord"
+    },
+    "settings_xchange_password_masked": {
+        "message": "* Het wachtwoord is verborgen"
+    },
+    "settings_redirects_auto_redirect_on_site_change" : {
+        "message": "Leid automatisch om naar de laatste pagina wanneer je van site wisselt"
+    },
+    "settings_redirects_auto_redirect_ask_before_redirect" : {
+        "message": "Vraag voor er een omleiding plaatstvindt"
+    },
+    "menu_delete_item_confirmation_dialog": {
+        "message": "Ben je zeker dat je menu $1 wil verwijderen?"
+    },
+    "settings_webdav_recent_files_period" : {
+        "message": "Recente bestandsperiode"
+    },
+    "settings_webdav_auto_refresh_log" : {
+        "message": "Vernieuw automatisch de log bestandsfolder"
+    },
+    "settings_webdav_auto_refresh_log_period" : {
+        "message": "De periode waarin de log bestandsfolder vernieuwt"
+    },
+    "settings_webdav_show_notifications_on_watch" : {
+        "message": "Toon notificaties bij watch"
+    },
+    "settings_webdav_customize_tags" : {
+        "message": "Customiseer tags"
+    },
+    "redirects_title": {
+        "message": "Site Change Redirects"
+    },
+    "redirects_description": {
+        "message": "Here you can exclude specific Business Manager Actions to prevent triggering of automatic redirect when the site is changed.<br>For included pages you will be automatically redirected even if 'Ask before redirection' option is enabled."
+    },
+    "redirects_exclude_title": {
+        "message": "Excluded BM Actions"
+    },
+    "redirects_included_title": {
+        "message": "Included BM Actions"
+    },
+    "redirects_url_caption": {
+        "message": "Action"
+    },
+    "redirects_new_url_action": {
+        "message": "e.g. Controller-Function"
+    },
+    "redirect_delete_item_confirmation_dialog": {
+        "message": "Do you really want to delete Action $1 ?"
+    },
+    "tags_title" : {
+        "message": "Tags"
+    },
+    "tags_description" : {
+        "message": "Tags allows quick filtering of WebDav files in a directory. If a file matches a specific tag, it is displayed in the tags column. The built-in tags use specific characteristics such as time, size, etc. Custom tags are using RegEx to match the filename. To filter by tag hover TAGS header and select the desired tag. In the list are shown only tags which match at least one file."
+    },
+    "tags_title_system" : {
+        "message": "System tags"
+    },
+    "tags_description_system" : {
+        "message": "Built-in tags which will be displayed in WebDav folders. All system tags will be shown in the bottom in the tags list."
+    },
+    "tags_title_custom" : {
+        "message": "Custom tags"
+    },
+    "tags_description_custom" : {
+        "message": "Custom tags to be displayed in WebDav folders. Any of the custom tags will appear if the tag's RegEx pattern matches part of the file name."
+    },
+    "tag_config_new" : {
+        "message": "Add new tag"
+    },
+    "tag_config_edit" : {
+        "message": "Edit tag"
+    },
+    "tag_config_name" : {
+        "message": "Name:"
+    },
+    "tag_config_pattern" : {
+        "message": "Pattern:"
+    },
+    "tag_config_background" : {
+        "message": "Background:"
+    },
+    "tag_config_color" : {
+        "message": "Color:"
+    },
+    "tag_config_visible" : {
+        "message": "Visible:"
+    },
+    "tag_config_save" : {
+        "message": "Save"
+    },
+    "tag_config_discard" : {
+        "message": "Discard"
+    },
+    "tags_add_new" : {
+        "message": "Add new tag"
+    },
+    "about_title": {
+        "message": "About us"
+    },
+    "about_product_description": {
+        "message": "Easing the use of Salesforce Commerce Cloud B2C Platform"
+    },
+    "about_product_version": {
+        "message": "Version $1 $2"
+    },
+    "about_tos": {
+        "message": "This work is licensed under a $1 and uses the open-source projects AngularJS, Angular Material Design and Font Awesome."
+    },
+    "about_buttons_info": {
+        "message": "Get help with using DWithEase"
+    },
+    "about_buttons_issues": {
+        "message": "Report an issue"
+    },
+    "about_buttons_changelog": {
+        "message": "Changelog"
+    },
+    "about_buttons_check_timesaved": {
+        "message": "See more"
+    },
+    "about_timesaved": {
+        "message": "This extension saved $1 of your life! $2"
+    },
+    "about_author": {
+        "message": "Created by"
+    },
+    "about_changelog": {
+        "message": "Changelog"
+    },
+    "about_saved_time_header": {
+        "message": "Saved Time"
+    },
+    "about_saved_time_total": {
+        "message": "Total:"
+    },
+    "categories_sandboxes": {
+        "message": "Sandboxes"
+    },
+    "categories_settings": {
+        "message": "Settings"
+    },
+    "categories_context_menu": {
+        "message": "Context Menu"
+    },
+    "categories_redirects": {
+        "message": "Redirects"
+    },
+    "categories_tags": {
+        "message": "Tags"
+    },
+    "categories_about": {
+        "message": "About"
+    },
+    "notifications_update_title": {
+        "message": "New update arrived!"
+    },
+    "notifications_update_message1": {
+        "message": "Updated to version "
+    },
+    "notifications_update_message2": {
+        "message": "\nClick here if you want to see the changelog."
+    },
+    "notifications_password_title": {
+        "message": "Wrong password input!"
+    },
+    "notifications_password_message": {
+        "message": "Click here if you want to change it."
+    },
+    "notifications_sandbox_title": {
+        "message": "New sandbox found"
+    },
+    "notifications_sandbox_button_title": {
+        "message": "Shut up!"
+    },
+    "notifications_sandbox_message": {
+        "message": "Click here if you want to add it to your sandboxes."
+    },
+    "toolbar_always_show": {
+        "message": "Always show"
+    },
+    "toolbar_auto_hide": {
+        "message": "Auto hide"
+    },
+    "toolbar_hidden": {
+        "message": "Don't show"
+    },
+    "timer_hide": {
+        "message" : "None"
+    },
+    "timer_show_refresh": {
+        "message" : "Auto Refresh (Pausable)"
+    },
+    "timer_show_timer" : {
+        "message" : "Timer"
+    },
+    "timer_show_timer_and_toggle" : {
+        "message" : "Timer (Toggle)"
+    },
+    "timer_show_refresh_and_toggle" : {
+        "message" : "Auto refresh (Toggle)"
+    },
+    "welcome_page_header": {
+        "message": "Thank you for installing Demandware with Ease!"
+    },
+    "welcome_page_paragraph": {
+        "message": "Congratulations! You have taken the first step for improving your Salesforce Commerce Cloud B2C experience."
+    },
+    "welcome_page_suggest": {
+        "message": "While we got your attention"
+    },
+    "welcome_page_features_button": {
+        "message": "Browse all features"
+    },
+    "update_page_title": {
+        "message": "Version $1 is here!"
+    },
+    "update_page_whats_new": {
+        "message": "What's new ?"
+    },
+    "update_page_new_version_title": {
+        "message": "What's new in $1 ?"
+    },
+    "update_page_version_title": {
+        "message": "Version $1"
+    },
+    "update_page_bugs_fixed_title": {
+        "message": "Bug fixes:"
+    },
+    "update_page_planned_features_title": {
+        "message": "Next versions will feature:"
+    },
+    "update_page_about_button": {
+        "message": "Learn More"
+    },
+    "autoLogin": {
+        "message": "Automatic Login In Business Manager"
+    },
+    "autoformatJson": {
+        "message": "Formatting JSON"
+    },
+    "autoformatHTML": {
+        "message": "Formatting HTML"
+    },
+    "invalidateCache": {
+        "message": "Invalidating cache"
+    },
+    "rebuildSearchIndexes": {
+        "message": "Rebuilding Search Indexes"
+    },
+    "manageCodeVersion": {
+        "message": "Managing Code Versions"
+    },
+    "hotkeys": {
+        "message": "Hotkeys"
+    },
+    "contextMenu": {
+        "message": "Context Menu"
+    },
+    "beautify": {
+        "message": "Beautifying Logs / Directories"
+    },
+    "uploadFile": {
+        "message": "Uploading files"
+    },
+    "forms_messages_required": {
+        "message": "Required"
+    },
+    "forms_messages_optional": {
+        "message": "Optional"
+    },
+    "button_visible" : {
+        "message": "Visibility"
+    },
+    "button_edit" : {
+        "message": "Edit"
+    },
+    "button_delete" : {
+        "message": "Delete"
+    },
+    "button_save" : {
+        "message": "Save"
+    },
+    "button_background_color" : {
+        "message": "Background Color"
+    },
+    "button_foreground_color" : {
+        "message": "Foreground Color"
+    },
+    "button_add_redirect_exclude" : {
+        "message": "Add Exclude Action"
+    },
+    "button_add_redirect_include" : {
+        "message": "Add Include Action"
+    }
+}
