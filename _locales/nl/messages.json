@@ -207,25 +207,25 @@
         "message": "Customiseer tags"
     },
     "redirects_title": {
-        "message": "Site Change Redirects"
+        "message": "Site Verandering Omleidingen"
     },
     "redirects_description": {
-        "message": "Here you can exclude specific Business Manager Actions to prevent triggering of automatic redirect when the site is changed.<br>For included pages you will be automatically redirected even if 'Ask before redirection' option is enabled."
+        "message": "Hier kan je specifieke Business Manager acties uitsluiten wanneer de automatische redirect van kracht is.<br>Voor pagina's die meetellen zal je automatisch omgeleid worden, zelfs al is de optie 'Vraag voor er een omleiding plaatstvindt' aan staat."
     },
     "redirects_exclude_title": {
-        "message": "Excluded BM Actions"
+        "message": "Uitgesloten BM Acties"
     },
     "redirects_included_title": {
-        "message": "Included BM Actions"
+        "message": "Ingesloten BM Acties"
     },
     "redirects_url_caption": {
-        "message": "Action"
+        "message": "Actie"
     },
     "redirects_new_url_action": {
         "message": "e.g. Controller-Function"
     },
     "redirect_delete_item_confirmation_dialog": {
-        "message": "Do you really want to delete Action $1 ?"
+        "message": "Ben je zeker dat je Actie $1 wil verwijderen??"
     },
     "tags_title" : {
         "message": "Tags"
