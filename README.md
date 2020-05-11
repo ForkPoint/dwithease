@@ -1,34 +1,38 @@
 # Demandware with ease
-## Use Salesforce Commerce Cloud B2C with ease!
+#### Use Salesforce Commerce Cloud B2C with ease!
 
 ## Install
 
 [DWithEase For Chrome](https://chrome.google.com/webstore/detail/demandware-with-ease/ffhabonelknmejmdnekedmijlhebpcio)
 
+[DWithEase For Firefox](https://addons.mozilla.org/en-US/firefox/addon/dwithease/)
+
+[DWithEase For Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/peefidlcfhcdelglpfhfbmniafbocgag)
+
 
 ## About this repo
-### This is the official public repository for Demandware with Ease.
-### It contains only the localization files for the extension. Any contributions to the translations are always welcome and gladly appreciated!
+#### This is the official public repository for Demandware with Ease.
+#### It contains only the localization files for the extension. Any contributions to the translations are always welcome and gladly appreciated!
 
 
 ## Extension recommended usage
 
-### This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
+#### This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
 
 
 # List of functionalities
 ## Options Page
 #### Store your sandboxes
     You can store all of your sandbox instances, and use individual options for each of them.
-
+    
     Open sandbox - will open the selected sandbox Business Manager Home page.
     Copy sandbox - will create a new instance with the same credentials as the selected sandbox.
     Edit sandbox - will allow you to edit your information any time.
     Remove sandbox
-
+    
     Keep BM Session Alive - will make your session never expire after
     the 15 minutes period in Business Manager.
-
+    
     Login in BM automatically - will automatically log-in Business Manager
     whenever the login screen pops up,if username and password is present.
 
