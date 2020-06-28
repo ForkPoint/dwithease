@@ -32,6 +32,15 @@
     "popup_tooltip_context_menu": {
         "message": "Menu contextuel"
     },
+    "popup_tooltip_btn_share": {
+        "message": "Partager"
+    },
+    "popup_tooltip_btn_share_copy": {
+        "message": "Copié dans le presse-papier"
+    },
+    "tooltip_settings_btn": {
+        "message": "Paramètres"
+    },
     "sandbox_title": {
         "message": "Vos instances"
     },
@@ -119,6 +128,9 @@
     "settings_general_header" : {
         "message": "Général"
     },
+    "settings_unified_authentication_header": {
+        "message": "Unified Authentication"
+    },
     "settings_popup_header" : {
         "message": "Popup"
     },
@@ -168,16 +180,16 @@
         "message": "sec"
     },
     "settings_xchange_autologin": {
-        "message": "Se connecter automatiquement dans XChange"
+        "message": "Se connecter automatiquement dans Account Manager"
     },
     "settings_xchange_keepsessionactive": {
         "message": "Maintenir les sessions XChange"
     },
     "settings_xchange_username": {
-        "message": "Nom d'utilisateur XChange"
+        "message": "Nom d'utilisateur Account Manager"
     },
     "settings_xchange_password": {
-        "message": "Mot de passe XChange"
+        "message": "Mot de passe Account Manager"
     },
     "settings_xchange_password_masked": {
         "message": "* Le mot de passe est masqué"
@@ -187,6 +199,9 @@
     },
     "settings_redirects_auto_redirect_ask_before_redirect" : {
         "message": "Demander avant de rediriger"
+    },
+    "settings_experimental_enable_developer_console" : {
+        "message": "Activier Developer Console"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Voulez-vous vraiment supprimer le menu $1 ?"
@@ -296,23 +311,11 @@
     "about_buttons_changelog": {
         "message": "Derniers changements"
     },
-    "about_buttons_check_timesaved": {
-        "message": "Voir plus"
-    },
-    "about_timesaved": {
-        "message": "Cette extension a sauvé $1 de votre vie ! $2"
-    },
     "about_author": {
         "message": "Créé par"
     },
     "about_changelog": {
         "message": "Changements"
-    },
-    "about_saved_time_header": {
-        "message": "Temps économisé"
-    },
-    "about_saved_time_total": {
-        "message": "Total:"
     },
     "categories_sandboxes": {
         "message": "Instances"

@@ -32,6 +32,15 @@
     "popup_tooltip_context_menu": {
         "message": "Context Menu"
     },
+    "popup_tooltip_btn_share": {
+        "message": "Condividere"
+    },
+    "popup_tooltip_btn_share_copy": {
+        "message": "Copiato negli appunti"
+    },
+    "tooltip_settings_btn": {
+        "message": "Impostazioni"
+    },
     "sandbox_title": {
         "message": "Tue sandbox"
     },
@@ -119,6 +128,9 @@
     "settings_general_header" : {
         "message": "General"
     },
+    "settings_unified_authentication_header": {
+        "message": "Unified Authentication"
+    },
     "settings_popup_header" : {
         "message": "Popup"
     },
@@ -168,16 +180,16 @@
         "message": "sec"
     },
     "settings_xchange_autologin": {
-        "message": "Automatically login in XChange"
+        "message": "Automatically login in Account Manager"
     },
     "settings_xchange_keepsessionactive": {
         "message": "Keep XChange session alive"
     },
     "settings_xchange_username": {
-        "message": "XChange Username"
+        "message": "Account Manager Username"
     },
     "settings_xchange_password": {
-        "message": "XChange Password"
+        "message": "Account Manager Password"
     },
     "settings_xchange_password_masked": {
         "message": "* The password is masked"
@@ -187,6 +199,9 @@
     },
     "settings_redirects_auto_redirect_ask_before_redirect" : {
         "message": "Ask before redirection"
+    },
+    "settings_experimental_enable_developer_console" : {
+        "message": "Enable Developer Console"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Do you really want to delete menu $1 ?"
@@ -296,23 +311,11 @@
     "about_buttons_changelog": {
         "message": "Ultime modifiche"
     },
-    "about_buttons_check_timesaved": {
-        "message": "Vedi altro"
-    },
-    "about_timesaved": {
-        "message": "Questo plugin risparmiare $1 della vostra vita! $2"
-    },
     "about_author": {
         "message": "Creato da"
     },
     "about_changelog": {
         "message": "Changelog"
-    },
-    "about_saved_time_header": {
-        "message": "Tempo risparmiato"
-    },
-    "about_saved_time_total": {
-        "message": "Totale:"
     },
     "categories_sandboxes": {
         "message": "Sandboxes"

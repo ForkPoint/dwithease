@@ -32,6 +32,15 @@
     "popup_tooltip_context_menu": {
         "message": "Context Menu"
     },
+    "popup_tooltip_btn_share": {
+        "message": "Подели"
+    },
+    "popup_tooltip_btn_share_copy": {
+        "message": "Копирано у међуспремник"
+    },
+    "tooltip_settings_btn": {
+        "message": "Подешавања"
+    },
     "sandbox_title": {
         "message": "Ваше инстанце"
     },
@@ -116,6 +125,9 @@
     "settings_general_header" : {
         "message": "General"
     },
+    "settings_unified_authentication_header": {
+        "message": "Unified Authentication"
+    },
     "settings_popup_header" : {
         "message": "Popup"
     },
@@ -165,16 +177,16 @@
         "message": "sec"
     },
     "settings_xchange_autologin": {
-        "message": "Automatically login in XChange"
+        "message": "Automatically login in Account Manager"
     },
     "settings_xchange_keepsessionactive": {
         "message": "Keep XChange session alive"
     },
     "settings_xchange_username": {
-        "message": "XChange Username"
+        "message": "Account Manager Username"
     },
     "settings_xchange_password": {
-        "message": "XChange Password"
+        "message": "Account Manager Password"
     },
     "settings_xchange_password_masked": {
         "message": "* The password is masked"
@@ -184,6 +196,9 @@
     },
     "settings_redirects_auto_redirect_ask_before_redirect" : {
         "message": "Ask before redirection"
+    },
+    "settings_experimental_enable_developer_console" : {
+        "message": "Enable Developer Console"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Do you really want to delete menu $1 ?"
@@ -293,23 +308,11 @@
     "about_buttons_changelog": {
         "message": "Подаци о изменама"
     },
-    "about_buttons_check_timesaved": {
-        "message": "Види више"
-    },
-    "about_timesaved": {
-        "message": "Ова екстензија је уштедела $1 вашег живота! $2"
-    },
     "about_author": {
         "message": "Аутор"
     },
     "about_changelog": {
         "message": "Подаци о изменама"
-    },
-    "about_saved_time_header": {
-        "message": "Saved Time"
-    },
-    "about_saved_time_total": {
-        "message": "Тотал:"
     },
     "categories_sandboxes": {
         "message": "Инстанце"

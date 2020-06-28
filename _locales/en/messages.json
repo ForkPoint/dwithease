@@ -32,6 +32,15 @@
     "popup_tooltip_context_menu": {
         "message": "Context Menu"
     },
+    "popup_tooltip_btn_share": {
+        "message": "Share"
+    },
+    "popup_tooltip_btn_share_copy": {
+        "message": "Copied to clipboard"
+    },
+    "tooltip_settings_btn": {
+        "message": "Settings"
+    },
     "sandbox_title": {
         "message": "Sandbox Configurations"
     },
@@ -104,8 +113,32 @@
     "sandbox_buttons_export": {
         "message": "Export"
     },
+    "sandbox_buttons_not_whitelisted": {
+        "message": "URL not whitelisted"
+    },
     "sandbox_form_sbinfo": {
         "message": "Sandbox Configuration"
+    },
+    "permissions_title": {
+        "message": "Permissions"
+    },
+    "permissions_description": {
+        "message": "You can manage the URL permissions that you will allow the extension to work on. Below you can find the already whitelisted URLs. If you have any un-whitelisted URLs you will see the Whitelist sandboxes button - use it to whitelist all of your existing aliases or URLs that are not matching the common/general patterns."
+    },
+    "permissions_urls_title": {
+        "message": "Whitelisted URLs"
+    },
+    "permissions_urls_reset": {
+        "message": "Reset Permissions"
+    },
+    "permissions_urls_reset_explanation": {
+        "message": "Please click the \"Reset Permissions\" button above to grant the basic permissions needed for the extension's normal functioning. Afterward, only sandbox aliases will need to be explicitly whitelisted - this will happen automatically when adding or editing sandboxes, but can also be managed from this screen."
+    },
+    "permissions_urls_sandboxes": {
+        "message": "Whitelist Sandbox Aliases"
+    },
+    "permissions_urls_remove_title": {
+        "message": "Dewhitelist URL"
     },
     "page_context_menu_title": {
         "message": "Context Menu"
@@ -119,6 +152,9 @@
     "settings_general_header" : {
         "message": "General"
     },
+    "settings_unified_authentication_header": {
+        "message": "Unified Authentication"
+    },
     "settings_popup_header" : {
         "message": "Popup"
     },
@@ -128,11 +164,17 @@
     "settings_redirects_header" : {
         "message": "Redirects"
     },
+    "settings_experimental_header" : {
+        "message": "Experimental Features"
+    },
     "settings_xchange_header" : {
         "message": "XChange"
     },
     "settings_general_notifications": {
         "message": "Notifications"
+    },
+    "settings_general_subscriptions_description": {
+        "message": "News Feed Subscriptions"
     },
     "settings_general_show_bm_toolbar": {
         "message": "BM Toolbar"
@@ -168,16 +210,16 @@
         "message": "sec"
     },
     "settings_xchange_autologin": {
-        "message": "Automatically login in XChange"
+        "message": "Automatically login in Account Manager"
     },
     "settings_xchange_keepsessionactive": {
         "message": "Keep XChange session alive"
     },
     "settings_xchange_username": {
-        "message": "XChange Username"
+        "message": "Account Manager Username"
     },
     "settings_xchange_password": {
-        "message": "XChange Password"
+        "message": "Account Manager Password"
     },
     "settings_xchange_password_masked": {
         "message": "* The password is masked"
@@ -187,6 +229,9 @@
     },
     "settings_redirects_auto_redirect_ask_before_redirect" : {
         "message": "Ask before redirection"
+    },
+    "settings_experimental_enable_developer_console" : {
+        "message": "Enable Developer Console"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Do you really want to delete menu $1 ?"
@@ -205,6 +250,12 @@
     },
     "settings_webdav_customize_tags" : {
         "message": "Customize tags"
+    },
+    "settings_inject_devconsole" : {
+        "message": "Inject Dev console cartridge"
+    },
+    "settings_devconsole_header": {
+        "message": "Dev console"
     },
     "redirects_title": {
         "message": "Site Change Redirects"
@@ -296,26 +347,20 @@
     "about_buttons_changelog": {
         "message": "Changelog"
     },
-    "about_buttons_check_timesaved": {
-        "message": "See more"
-    },
-    "about_timesaved": {
-        "message": "This extension saved $1 of your life! $2"
-    },
     "about_author": {
         "message": "Created by"
     },
     "about_changelog": {
         "message": "Changelog"
     },
-    "about_saved_time_header": {
-        "message": "Saved Time"
-    },
-    "about_saved_time_total": {
-        "message": "Total:"
-    },
     "categories_sandboxes": {
         "message": "Sandboxes"
+    },
+    "categories_permissions": {
+        "message": "Permissions"
+    },
+    "categories_permissions_not_whitelisted": {
+        "message": "Missing Permissions"
     },
     "categories_settings": {
         "message": "Settings"
@@ -331,6 +376,9 @@
     },
     "categories_about": {
         "message": "About"
+    },
+    "categories_news": {
+        "message": "News"
     },
     "notifications_update_title": {
         "message": "New update arrived!"
@@ -355,6 +403,12 @@
     },
     "notifications_sandbox_message": {
         "message": "Click here if you want to add it to your sandboxes."
+    },
+    "notifications_permissions_change_title": {
+        "message": "Our Security is Improving"
+    },
+    "notifications_permissions_change_message": {
+        "message": "We've changed the way we use site URL permissions in order to make it clearer and more transparent for you. In order to continue using the extension functionalities on your sandbox instances, please review the new permissions options."
     },
     "toolbar_always_show": {
         "message": "Always show"
@@ -391,6 +445,12 @@
     },
     "welcome_page_features_button": {
         "message": "Browse all features"
+    },
+    "newsfeed_page_title": {
+        "message": "News"
+    },
+    "no_newsfeed_page_title": {
+        "message": "There are currently no news"
     },
     "update_page_title": {
         "message": "Version $1 is here!"
@@ -443,6 +503,24 @@
     "uploadFile": {
         "message": "Uploading files"
     },
+    "newsfeed_topic_news": {
+        "message": "News"
+    },
+    "newsfeed_topic_recruitment": {
+        "message": "Job Offers"
+    },
+    "newsfeed_topic_tips": {
+        "message": "Tips"
+    },
+    "newsfeed_topic_marketing": {
+        "message": "Marketing"
+    },
+    "newsfeed_topic_features": {
+        "message": "Features"
+    },
+    "newsfeed_not_subscribed": {
+        "message": "Don't miss out on our tips and tricks on the SFCC platform each week. Subscribe now."
+    },
     "forms_messages_required": {
         "message": "Required"
     },
@@ -472,5 +550,8 @@
     },
     "button_add_redirect_include" : {
         "message": "Add Include Action"
+    },
+    "button_mark_all_as_read" : {
+        "message": "Mark all as read"
     }
 }

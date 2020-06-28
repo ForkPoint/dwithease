@@ -32,6 +32,15 @@
     "popup_tooltip_context_menu": {
         "message": "Context Menu"
     },
+    "popup_tooltip_btn_share": {
+        "message": "Delen"
+    },
+    "popup_tooltip_btn_share_copy": {
+        "message": "Gekopieerd naar het klembord"
+    },
+    "tooltip_settings_btn": {
+        "message": "Instellingen"
+    },
     "sandbox_title": {
         "message": "Sandbox Configuraties"
     },
@@ -119,6 +128,9 @@
     "settings_general_header" : {
         "message": "Algemeen"
     },
+    "settings_unified_authentication_header": {
+        "message": "Unified Authentication"
+    },
     "settings_popup_header" : {
         "message": "Popup"
     },
@@ -168,16 +180,16 @@
         "message": "seconden"
     },
     "settings_xchange_autologin": {
-        "message": "Log automatisch in XChange in"
+        "message": "Log automatisch in Account Manager"
     },
     "settings_xchange_keepsessionactive": {
         "message": "Hou de XChange sessie in leven"
     },
     "settings_xchange_username": {
-        "message": "XChange Gebruikersnaam"
+        "message": "Account Manager Gebruikersnaam"
     },
     "settings_xchange_password": {
-        "message": "XChange Wachtwoord"
+        "message": "Account Manager Wachtwoord"
     },
     "settings_xchange_password_masked": {
         "message": "* Het wachtwoord is verborgen"
@@ -187,6 +199,9 @@
     },
     "settings_redirects_auto_redirect_ask_before_redirect" : {
         "message": "Vraag voor er een omleiding plaatstvindt"
+    },
+    "settings_experimental_enable_developer_console" : {
+        "message": "Inschakelen Developer Console"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Ben je zeker dat je menu $1 wil verwijderen?"
@@ -296,23 +311,11 @@
     "about_buttons_changelog": {
         "message": "Changelog"
     },
-    "about_buttons_check_timesaved": {
-        "message": "Zie meer"
-    },
-    "about_timesaved": {
-        "message": "Deze extension heeft $1 tijd van je leven uitgespaart! $2"
-    },
     "about_author": {
         "message": "Gemaakt door"
     },
     "about_changelog": {
         "message": "Changelog"
-    },
-    "about_saved_time_header": {
-        "message": "Uitgespaarde Tijd"
-    },
-    "about_saved_time_total": {
-        "message": "Totaal:"
     },
     "categories_sandboxes": {
         "message": "Sandboxes"

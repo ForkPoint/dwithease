@@ -32,6 +32,15 @@
     "popup_tooltip_context_menu": {
         "message": "Контекстно меню"
     },
+    "popup_tooltip_btn_share": {
+        "message": "Сподели"
+    },
+    "popup_tooltip_btn_share_copy": {
+        "message": "Записано в клипборда"
+    },
+    "tooltip_settings_btn": {
+        "message": "Настройки"
+    },
     "sandbox_title": {
         "message": "Вашите пясъчници"
     },
@@ -104,8 +113,29 @@
     "sandbox_buttons_export": {
         "message": "Експорт"
     },
+    "sandbox_buttons_not_whitelisted": {
+        "message": "Адресът не е разрешен"
+    },
     "sandbox_form_sbinfo": {
         "message": "Информация за пясъчника"
+    },
+    "permissions_title": {
+        "message": "Разрешения"
+    },
+    "permissions_urls_title": {
+        "message": "Разрешени адреси"
+    },
+    "permissions_urls_reset": {
+        "message": "Добави базови разрешения"
+    },
+    "permissions_urls_reset_explanation": {
+        "message": "Моля, натиснете бутона \"Добави базови разрешения\", за да добавите адреси, необходими за нормалното функциониране на разшиернието. Впоследствие ще можете да добавяте допълнителни адреси."
+    },
+    "permissions_urls_sandboxes": {
+        "message": "Разреши алиасите на пясъчниците"
+    },
+    "permissions_urls_remove_title": {
+        "message": "Забрани адрес"
     },
     "page_context_menu_title": {
         "message": "Контекстно меню"
@@ -118,6 +148,9 @@
     },
     "settings_general_header" : {
         "message": "Общи"
+    },
+    "settings_unified_authentication_header": {
+        "message": "Unified Authentication"
     },
     "settings_popup_header" : {
         "message": "Popup"
@@ -168,16 +201,16 @@
         "message": "sec"
     },
     "settings_xchange_autologin": {
-        "message": "Автоматична аутентикация в XChange"
+        "message": "Автоматична аутентикация в Account Manager"
     },
     "settings_xchange_keepsessionactive": {
         "message": "Запази XChange сесията жива"
     },
     "settings_xchange_username": {
-        "message": "XChange Потребителско име"
+        "message": "Account Manager Потребителско име"
     },
     "settings_xchange_password": {
-        "message": "XChange Парола"
+        "message": "Account Manager Парола"
     },
     "settings_xchange_password_masked": {
         "message": "* Паролата е маскирана"
@@ -187,6 +220,9 @@
     },
     "settings_redirects_auto_redirect_ask_before_redirect" : {
         "message": "Попитай преди пренасочване"
+    },
+    "settings_experimental_enable_developer_console" : {
+        "message": "Използвай Developer Console"
     },
     "menu_delete_item_confirmation_dialog": {
         "message": "Наистина ли искаш да изтриеш меню $1 ?"
@@ -296,26 +332,20 @@
     "about_buttons_changelog": {
         "message": "Последни промени"
     },
-    "about_buttons_check_timesaved": {
-        "message": "Виж подробно"
-    },
-    "about_timesaved": {
-        "message": "Тази приставка спести $1 от вашият живот! $2"
-    },
     "about_author": {
         "message": "Създадено от"
     },
     "about_changelog": {
         "message": "Промени"
     },
-    "about_saved_time_header": {
-        "message": "Спестено време"
-    },
-    "about_saved_time_total": {
-        "message": "Общо:"
-    },
     "categories_sandboxes": {
         "message": "Пясъчници"
+    },
+    "categories_permissions": {
+        "message": "Разрешения"
+    },
+    "categories_permissions_not_whitelisted": {
+        "message": "Липсващи Разрешения"
     },
     "categories_settings": {
         "message": "Настройки"
@@ -355,6 +385,12 @@
     },
     "notifications_sandbox_message": {
         "message": "Натиснете тук, ако искате да го добавите към вашите пясъчници."
+    },
+    "notifications_permissions_change_title": {
+        "message": "Подобряваме сигурността си"
+    },
+    "notifications_permissions_change_message": {
+        "message": "Променихме начина, по който използваме разрешения за определени сайтове, за да бъде по-ясен за крайния потребител. Моля, прегледайте новата страница за управление на разрешенията."
     },
     "toolbar_always_show": {
         "message": "Показвай винаги"
