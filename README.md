@@ -1,113 +1,133 @@
-# Demandware with ease
-#### Use Salesforce Commerce Cloud B2C with ease!
+<h1>
+  <img src="_assets/logo.png" alt="DWE logo" height="40" align="left" />
+  Demandware with Ease
+</h1>
 
-## Install
+> Use Salesforce Commerce Cloud B2C with ease!
 
-[DWithEase For Chrome](https://chrome.google.com/webstore/detail/demandware-with-ease/ffhabonelknmejmdnekedmijlhebpcio)
+## 📦 Install
 
-[DWithEase For Firefox](https://addons.mozilla.org/en-US/firefox/addon/dwithease/)
+- [DWithEase for Chrome](https://chrome.google.com/webstore/detail/demandware-with-ease/ffhabonelknmejmdnekedmijlhebpcio)
+- [DWithEase for Firefox](https://addons.mozilla.org/en-US/firefox/addon/dwithease/)
+- [DWithEase for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/peefidlcfhcdelglpfhfbmniafbocgag)
 
-[DWithEase For Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/peefidlcfhcdelglpfhfbmniafbocgag)
+## 📖 About This Repo
+
+This is the official public repository for **Demandware with Ease**. It contains the localization files for the extension. Contributions to the translations are always welcome and gladly appreciated.
+
+## ⚠️ Recommended Usage
+
+This extension is intended for **developer sandboxes**. Use with caution on staging and production sandboxes.
+
+## 🤝 Community Contributions
+
+DWE includes a **custom plugin system** that lets anyone write their own JavaScript or CSS and run it on Business Manager pages. Plugins are managed from the Plugins tab in the extension options, route-gated per page, and exported as portable `.dweplugin` files for sharing.
+
+If you have built a plugin that other developers would benefit from, submit it for inclusion natively in the extension:
+
+Accepted plugins are bundled into the next release and credited to the author on the extension's About page.
+
+See **[plugins/contribution.md](plugins/contribution.md)** for the full submission guide — file format, route-gating modes, authoring guidelines, security expectations, size limits, and review criteria.
 
 
-## About this repo
-#### This is the official public repository for Demandware with Ease.
-#### It contains only the localization files for the extension. Any contributions to the translations are always welcome and gladly appreciated!
+## ✨ List of Functionalities
 
+### ⚙️ Options Page
 
-## Extension recommended usage
+#### 🗄️ Store Your Sandboxes
 
-#### This plugin is intended for developer sandboxes and should be used with caution for staging and production sandboxes!
+Store all of your sandbox instances and use individual options for each of them.
 
+- **Open sandbox** — opens the selected sandbox Business Manager home page.
+- **Copy sandbox** — creates a new instance with the same credentials as the selected sandbox.
+- **Edit sandbox** — edit your information any time.
+- **Remove sandbox** — delete a stored instance.
+- **Keep BM Session Alive** — your session never expires after the 15-minute period in Business Manager.
+- **Login in BM automatically** — auto-logs into Business Manager whenever the login screen appears, if username and password are present.
 
-# List of functionalities
-## Options Page
-#### Store your sandboxes
-    You can store all of your sandbox instances, and use individual options for each of them.
-    
-    Open sandbox - will open the selected sandbox Business Manager Home page.
-    Copy sandbox - will create a new instance with the same credentials as the selected sandbox.
-    Edit sandbox - will allow you to edit your information any time.
-    Remove sandbox
-    
-    Keep BM Session Alive - will make your session never expire after
-    the 15 minutes period in Business Manager.
-    
-    Login in BM automatically - will automatically log-in Business Manager
-    whenever the login screen pops up,if username and password is present.
+#### 🔒 Secured Password
 
-#### Secured Password
-    Your passwords are stored securely using AES
-    encryption and are never visible in plain text once input.
-    Note: Passwords are optional.However, keep in mind
-    that you will not be able to use the automatic login functionallity.
+Passwords are stored securely using AES encryption and are never visible in plain text once entered.
 
-#### Sandbox Options
-    Notifications - turn on/off notifications.
-    Scroll log to bottom - scrolls you to the bottom of the page when you are inside .log file
-    Trim logs (X) - turn on/off trim of files lines inside .log file
-    Beautify logs (none,colorize,beautify) - formats the logs for better readability
-    Automatically login in XChange - turn on/off, will auto login if credentials are present
-    Keep XChange session alive - makes the XChange session never expire
+> **Note:** passwords are optional. Without one, the automatic login functionality is unavailable.
 
-#### Import / Export
-    Import & Export your sandbox configurations in JSON config file,
-    if you do not want to loose your settings.Passwords are not exported.
+#### 🎛️ Sandbox Options
 
-## Menu Page
-#### Context menu
-    Where you can rearange the context menu positions with drag and drop, or add new pages to it.
-    You can set which one you want to be active and appear, and leave the unused for now as inactive.
-    The context menu can be accessed by right clicking inside a saved sandbox browser tab.
+- **Notifications** — turn notifications on/off.
+- **Scroll log to bottom** — scrolls to the bottom of the page when viewing a `.log` file.
+- **Trim logs (X)** — turn on/off line trimming inside `.log` files.
+- **Beautify logs** (`none`, `colorize`, `beautify`) — formats logs for better readability.
+- **Automatically login in XChange** — auto-logs in if credentials are present.
+- **Keep XChange session alive** — makes the XChange session never expire.
 
-## Business Manager Context
+#### 🔄 Import / Export
 
-#### Account Lock Protection
-    The extension stops auto login process immediately after wrong password,
-    which protects your account from getting locked.Re-check your credentials and try again.
+Import and export your sandbox configurations as a JSON config file so you do not lose your settings. **Passwords are not exported.**
 
-#### Apply/Update Hotkey
-    You can use CTRL + S hotkey to instantly click the update/apply button,
-    on Product edit and Content asset edit pages and save your changes.
+### 📋 Menu Page
 
-#### Recreated buttons on development
-    Recreated New and Delete buttons in System Object - > Attribute Definitions.
-    Recreated New Attribute Group form and Delete button in System Object - > Attribute Grouping.
+#### 🖱️ Context Menu
 
-## Extension Popup
-#### Smart Shortcuts
-    Quick Access to the following functionalities:
-    -Your Sandboxes List (Open BM or Edit Configuration)
-    -Use your configured context menu for each configuration
-    -Link to extension options page
-    -Link to SFCC Documentation / XChange
+Rearrange context-menu positions via drag and drop, or add new pages. Set which entries are active and leave unused ones inactive. The context menu is accessed by right-clicking inside a saved sandbox browser tab.
 
-## WebDav Pages
-#### Enhanced logs
-    Today and yesterday logs are reordered on top of the logs page and are highlighted.
-    If this option is enabled it also highlights most important words on logs.
+### 💼 Business Manager Context
 
-#### Breadcrumbs
-    Transformed breadcrumb in webvdav to be clickable for easier navigation
+#### 🛡️ Account Lock Protection
 
-#### File Actions
-    When you are in one of the following places in webdav - /Cartridges, /Impex, /Securitylogs, /Temp, /Static, /Library
-    The following options are present:
-    - Upload file area, where you can drop files to upload them all, or left click to upload single file.
-    - Create new folder button
-    - Delete folder/file
-    - Empty file
-    - Edit file
+The extension stops the auto-login process immediately after a wrong password, protecting your account from being locked. Re-check your credentials and try again.
 
-## Sandbox Context
-#### Download content asset button
-    The extension adds an additional button inside the edit content asset page,
-    where you can download xml export of the current asset and all of its populated attributes.
+#### ⌨️ Apply/Update Hotkey
 
-#### Notifications
-    The extension will notify you if you visit a demandware sandbox which is not saved or,
-    if the password input is wrong.You can turn off notifications in the options menu.
+Use `CTRL + S` to instantly click the Update / Apply button on Product Edit and Content Asset Edit pages and save your changes.
 
-#### Helper Context Menu
-    Right-click context menu, to gain faster access to most popular pages.
-    The menu consists of 5 default pages, and you can add any custom page from the options page menu page.
+#### 🔘 Recreated Buttons on Development
+
+- Recreated **New** and **Delete** buttons in *System Object → Attribute Definitions*.
+- Recreated **New Attribute Group** form and **Delete** button in *System Object → Attribute Grouping*.
+
+### 💬 Extension Popup
+
+#### ⚡ Smart Shortcuts
+
+Quick access to:
+
+- Your sandboxes list (Open BM or Edit Configuration)
+- Configured context menu per configuration
+- Link to extension options page
+- Link to SFCC Documentation / XChange
+
+### 🌐 WebDav Pages
+
+#### 📜 Enhanced Logs
+
+Today's and yesterday's logs are reordered to the top of the logs page and highlighted. When enabled, the most important words in logs are also highlighted.
+
+#### 🍞 Breadcrumbs
+
+The breadcrumb in WebDav is transformed into clickable segments for easier navigation.
+
+#### 📁 File Actions
+
+In `/Cartridges`, `/Impex`, `/Securitylogs`, `/Temp`, `/Static`, and `/Library`:
+
+- **Upload file area** — drop files to upload all of them, or left-click to upload a single file.
+- **Create new folder** button
+- **Delete folder/file**
+- **Empty file**
+- **Edit file**
+
+### 🏖️ Sandbox Context
+
+#### ⬇️ Download Content Asset Button
+
+Adds an extra button inside the Edit Content Asset page that downloads an XML export of the current asset and all of its populated attributes.
+
+#### 🔔 Notifications
+
+The extension notifies you when you visit a Demandware sandbox that is not saved, or when the password input is wrong. Notifications can be disabled in the options menu.
+
+#### 🆘 Helper Context Menu
+
+A right-click context menu for faster access to popular pages. Five default pages, plus any custom pages added from the options Menu page.
+
+---
